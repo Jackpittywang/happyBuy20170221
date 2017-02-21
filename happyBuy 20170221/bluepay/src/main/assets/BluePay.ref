@@ -2,7 +2,7 @@
 <resources>
   <lang value="en">en</lang>
   <ek value="ocearStarPay">2_00EA7582ACCF87DD5ADA50765C201DA6C015201DE4E59BD3DCDF0AC5441F9381</ek>
-  <productId value="100">409</productId>
+  <productId value="100">481</productId>
   <promotionId value="1000">1000</promotionId>
   <debug>false</debug>
   <!--默认的价格列表该列表的value是*100的，500对应5THB 用于    <price value="1000">15</price> value 的值是价格点，比如：500 == 5THB，对应15个金币-->
