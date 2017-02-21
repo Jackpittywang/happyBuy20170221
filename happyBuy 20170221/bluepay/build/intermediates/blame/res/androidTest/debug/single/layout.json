@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bluep_tips_offline.xml",
+        "source": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\bundles\\debug\\res\\layout\\bluep_tips_offline.xml"
+    },
+    {
+        "merged": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bluep_by_offline.xml",
+        "source": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\bundles\\debug\\res\\layout\\bluep_by_offline.xml"
+    },
+    {
+        "merged": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bluepay_view_loading.xml",
+        "source": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\bundles\\debug\\res\\layout\\bluepay_view_loading.xml"
+    },
+    {
+        "merged": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bluepay_logo.xml",
+        "source": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\bundles\\debug\\res\\layout\\bluepay_logo.xml"
+    },
+    {
+        "merged": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bluep_by_ad.xml",
+        "source": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\bundles\\debug\\res\\layout\\bluep_by_ad.xml"
+    },
+    {
+        "merged": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bluep_by_otc_portrait.xml",
+        "source": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\bundles\\debug\\res\\layout\\bluep_by_otc_portrait.xml"
+    },
+    {
+        "merged": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_pay_ui.xml",
+        "source": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_pay_ui.xml"
+    },
+    {
+        "merged": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bluep_by_otc_landscape_happy.xml",
+        "source": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\bundles\\debug\\res\\layout\\bluep_by_otc_landscape_happy.xml"
+    },
+    {
+        "merged": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bluep_pay_opt_lanscape.xml",
+        "source": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\bundles\\debug\\res\\layout\\bluep_pay_opt_lanscape.xml"
+    },
+    {
+        "merged": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bluep_by_otc_landscape.xml",
+        "source": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\bundles\\debug\\res\\layout\\bluep_by_otc_landscape.xml"
+    },
+    {
+        "merged": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bluep_by_dcb.xml",
+        "source": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\bundles\\debug\\res\\layout\\bluep_by_dcb.xml"
+    },
+    {
+        "merged": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bluep_pay_otc_portrait_happy.xml",
+        "source": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\bundles\\debug\\res\\layout\\bluep_pay_otc_portrait_happy.xml"
+    },
+    {
+        "merged": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bluep_pay_opt_portrait.xml",
+        "source": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\bundles\\debug\\res\\layout\\bluep_pay_opt_portrait.xml"
+    },
+    {
+        "merged": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bluep_smslist.xml",
+        "source": "E:\\happyBuy 20170221\\bluepay\\build\\intermediates\\bundles\\debug\\res\\layout\\bluep_smslist.xml"
+    }
+]

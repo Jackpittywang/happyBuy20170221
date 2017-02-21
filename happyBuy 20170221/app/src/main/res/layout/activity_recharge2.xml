@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <dotc.android.happybuy.uibase.component.HBToolbar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_alignParentTop="true" />
+    <ScrollView
+        android:layout_below="@+id/id_toolbar"
+        android:layout_above="@+id/layout_part"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="#fff6efe8"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="@string/choice_pay_channel"
+            android:textColor="@color/colorText"
+            android:textSize="14sp" />
+
+        <!--<include layout="@layout/layout_payment_channel" />-->
+                <dotc.android.happybuy.modules.recharge.widget.CoinPaymentMethodImageLayout
+                    android:id="@+id/layout_payment_channel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="20dp"
+            android:background="#fff6efe8"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="@string/choice_recharge_amount"
+            android:textColor="@color/colorText"
+            android:textSize="14sp" />
+
+        <dotc.android.happybuy.modules.recharge.widget.CoinValueClusterLayout
+            android:id="@+id/layout_coin_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+             />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/show_people_num"
+                android:textColor="@color/colorText"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textview_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:text=""
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#fff6efe8" />
+
+        <!--<Button
+            android:id="@+id/button_recharge"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/action_now_selector"
+            android:text="@string/recharge_now"
+            android:textColor="@color/white"
+            android:textSize="16sp" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_tips"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#f6efe8">
+        <TextView
+            android:paddingRight="22dp"
+            android:paddingLeft="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#68615a"
+            android:text="@string/recharge_tips"/>
+        <RelativeLayout
+            android:paddingRight="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:paddingBottom="17dp"
+                android:paddingLeft="22dp"
+                android:id="@+id/tips_iknow"
+                android:layout_alignParentRight="true"
+                android:textSize="15dp"
+                android:textColor="#ff383e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recharge_iknow"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+    </ScrollView>
+   <!-- <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button_recharge"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/action_now_selector"
+        android:text="@string/recharge_now"
+        android:textColor="@color/white"
+        android:textSize="16sp" />-->
+
+    <FrameLayout
+        android:id="@+id/layout_part"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_action_buttom_nol"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:id="@+id/button_recharge"
+            android:layout_width="250dp"
+            android:layout_height="@dimen/toolbar_height"
+            android:layout_gravity="center"
+            android:background="@drawable/bet_now_selector"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="@string/recharge_now"/>
+    </FrameLayout>
+</RelativeLayout>

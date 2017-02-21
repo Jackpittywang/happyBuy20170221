@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <dotc.android.happybuy.uibase.component.HBToolbar
+        android:id="@+id/tbShowDetail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbShowDetail"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:id="@+id/llShowDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llShowDetailMedal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="14dp"
+                    android:orientation="vertical"
+                    android:visibility="invisible">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_horizontal"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_share_prize_medal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="4dp"
+                        android:singleLine="true"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp"
+                        tools:text="อาทิตย์ - เดี่ยว" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivShareDetailShareUserPortrait"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="14dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@drawable/pic_circle_portrait_placeholder" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/llShowDetailMedal"
+                    android:layout_toRightOf="@id/ivShareDetailShareUserPortrait"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvShareDetailShareUserName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="@color/prize_show_name"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:text="Alexander Higgins" />
+
+                    <TextView
+                        android:id="@+id/tvShareDetailShareTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textColor="@color/black_light"
+                        android:textSize="12sp"
+                        tools:text="Prize：iPhone 7 Plus 256GB" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llShowDetailPrize"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ivShareDetailShareUserPortrait"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="14dp"
+                    android:background="#f5f3f3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvShareDetailAwardName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="12dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black_light"
+                        android:textSize="12sp"
+                        tools:text="获得奖品：iPhone 7 Plus 256GB" />
+
+                    <TextView
+                        android:id="@+id/tvShareDetailAwardItem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="2dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black_light"
+                        android:textSize="12sp"
+                        tools:text="期号：694" />
+
+                    <TextView
+                        android:id="@+id/tvShareDetailAwardTimes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="2dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black_light"
+                        android:textSize="12sp"
+                        tools:text="期号：694" />
+
+                    <TextView
+                        android:id="@+id/tvShareDetailAwardCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="2dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black_light"
+                        android:textSize="12sp"
+                        tools:text="幸运号码：100024356" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginTop="2dp">
+
+                        <TextView
+                            android:id="@+id/tvShareDetailAwardTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:textColor="@color/black_light"
+                            android:textSize="12sp"
+                            tools:text="Time：2016-12-01 09:16:36" />
+
+                        <TextView
+                            android:id="@+id/tvShareDetailViewDetail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:singleLine="true"
+                            android:text="@string/view_details_with_arrow"
+                            android:textColor="@color/prize_show_name"
+                            android:textSize="12sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvShareDetailContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/llShowDetailPrize"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/colors_33"
+                    android:textSize="16sp"
+                    tools:text="The Idea Of God Is Not Henceforther Relevant For Everyone！The Idea Of God Is Not Henceforther Relevant, The Idea Of God Is Not Henceforther RelevantThe Idea Of God Is Not Henceforther Relevant" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

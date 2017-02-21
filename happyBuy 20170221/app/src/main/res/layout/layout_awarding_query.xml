@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_awarding_query"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:visibility="invisible"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:text="@string/being_query"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="22sp"
+        android:textColor="#fffff600"
+        android:text="@string/please_wait"
+        />
+    <dotc.android.happybuy.modules.awarding.widget.LoadingAnimView
+        android:id="@+id/view_loading_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/transparent"
+        />
+</LinearLayout>

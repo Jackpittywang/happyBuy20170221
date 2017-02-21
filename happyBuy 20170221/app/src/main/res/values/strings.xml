@@ -1,0 +1,502 @@
+<resources>
+    <string name="hb_app_name">GoGoBuy</string>
+    <!-- no need  translate -->
+    <string name="drawer_open" translatable="false">Left</string>
+    <string name="drawer_close" translatable="false">Home</string>
+    <!--<string name="app_name">LoginDemo-ShareSDK</string>-->
+    <string name="action_settings">Settings</string>
+    <string name="activity_recharge">Top up</string>
+    <string name="activity_goods_detail">Details</string>
+    <string name="activity_goods_category">Categories</string>
+    <string name="activity_goods_confirm">Confirm</string>
+    <string name="activity_pay">Payment</string>
+    <string name="activity_profile">Profile</string>
+    <string name="activity_setting">Settings</string>
+    <string name="activity_pass_mgr">Password</string>
+    <string name="activity_agreement">Terms of Service</string>
+    <string name="activity_about">About</string>
+    <string name="activity_show">Winner’s Timeline</string>
+    <string name="activity_show_detail">Show details</string>
+    <string name="activity_share_prize">Winner’s Moment</string>
+    <string name="activity_address_select">Select</string>
+    <string name="activity_address_center">Delivery address</string>
+    <string name="activity_address_edit">Edit address</string>
+    <string name="activity_recharge_instruction">How to top up</string>
+    <string name="choice_recharge_amount">Select amount</string>
+    <string name="choice_pay_channel">Choose payment method</string>
+    <string name="choice_part_person_time">Choose number of times</string>
+    <string name="your_particate">Your purchase: </string>
+    <string name="recharge_now">Top up</string>
+    <string name="pay_now">Bet Now</string>
+    <string name="pay_amount">Total</string>
+    <string name="times_total">Total </string>
+    <string name="times_retain">Remain</string>
+    <string name="account_balance">Account balance</string>
+    <string name="part_now">Bet Now</string>
+    <string name="part">Bet Now</string>
+    <string name="part_add">Additional</string>
+    <string name="paypal">Paypal</string>
+    <string name="google_pay">Google Pay</string>
+    <string name="pass_mgr">Password</string>
+    <string name="app_version_check">Check for updates</string>
+    <string name="agreement">Terms of Service</string>
+    <string name="about">About</string>
+    <string name="user_exit">Logout</string>
+    <string name="lucky_number">Lucky number: </string>
+    <string name="part_try_hint">Join us to win this?</string>
+    <string name="particate_number">Your ticket number: </string>
+    <string name="label_congratulate">Congratulations, </string>
+    <string name="label_obtain">Wins </string>
+    <string name="product_not_found">No results</string>
+    <string name="net_request_error">Failed to connect to network</string>
+    <string name="net_request_retry">Tap to retry</string>
+    <string name="image_text_detail">Show details</string>
+    <string name="timeline_share">Winner’s Moment</string>
+    <string name="history_look">Previews</string>
+    <string name="calc_detail">How to calculate Lucky Number?</string>
+    <string name="award_date">Due date: </string>
+    <string name="award_count_down">Countdown: </string>
+    <string name="label_period_">Round: %s</string>
+    <string name="period_part">Current term participation: </string>
+    <string name="all_part_recorder">All purchase</string>
+    <string name="part_detail">View details</string>
+    <string name="product_state_doing">Open</string>
+    <string name="product_state_done">Closed</string>
+    <string name="product_state_share">Shared</string>
+    <string name="label_recharge">Top up</string>
+    <string name="label_winner">Winner</string>
+    <string name="label_show">Show</string>
+    <string name="label_support">Support</string>
+    <string name="last_award">Winner</string>
+    <string name="help_center">Help Center</string>
+    <string name="main_tab_all">All GOODS</string>
+    <string name="main_tab_tens">10THB REGION</string>
+    <string name="click_retry">Click to retry</string>
+    <string name="loadmore_empty">No more products</string>
+    <string name="times">times</string>
+    <string name="win_prize">Congratulations, you win!</string>
+    <string name="lable_period_name">Round: %s</string>
+    <string name="lable_winner">Winner: %s</string>
+    <string name="lable_period_times">Current term participation: %s times</string>
+    <string name="lable_win_number">Lucky number: %s</string>
+    <string name="list_empty_hint">No records</string>
+    <string name="list_winner_empty_hint">You haven’t win any prize</string>
+    <string name="computing">Calculating...</string>
+    <string name="commiting">Submitting...</string>
+    <string name="loading">Loading...</string>
+    <string name="load_more">Load more</string>
+    <string name="data_empty">No data</string>
+    <string name="load_failed">Failed to load data</string>
+    <string name="network_exception">Network failure</string>
+    <string name="commiting_failed">Fail to upload</string>
+    <string name="commiting_success">Submit successfully</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="view">View</string>
+    <string name="modify_nickname">Edit Login name</string>
+    <string name="nickname_empty_hint">Please enter your Login</string>
+    <string name="portrait">Picture</string>
+    <string name="nickname">Login name</string>
+    <string name="address_manager">Manage your address</string>
+    <string name="portrait_commit_success">Photo has been saved</string>
+    <string name="portrait_commit_fail">Failed to upload</string>
+    <string name="product_state">Product status: </string>
+    <string name="product_track">Track your product: </string>
+    <string name="award_congratulation">Congratulations, you win</string>
+    <string name="award_address_select">Please select delivery address</string>
+    <string name="award_address_selected">Delivery address is selected</string>
+    <string name="award_share_select">Share it on Winner’s Moment</string>
+    <string name="award_share_selected">Shared</string>
+    <string name="order_logistics_shippe">Ready to deliver</string>
+    <string name="order_logistics_shipped">Dispatched</string>
+    <string name="order_logistics_received">Received</string>
+    <string name="order_logistics_close">Delivery Complete</string>
+    <string name="award_share_look">View details</string>
+    <string name="address_empty">Edit your delivery address</string>
+    <string name="create_address">Add address</string>
+    <string name="lable_coin">%d Coins</string>
+    <string name="coin">Coins</string>
+    <string name="order_creating">Submitting this order...</string>
+    <string name="order_paying">Processing your payment...</string>
+    <string name="query_order_result">Please wait to confirm your order...</string>
+    <string name="billing_env_fail">Payment failure, please check your network</string>
+    <string name="order_pay_done">Your order has been\n submitted successfully</string>
+    <string name="recharge_result">Top up</string>
+    <string name="buy_fail_money_not_enough">Insufficient balance</string>
+    <string name="buy_fail_times_not_enough">Not enough participants to proceed</string>
+    <string name="order_pay_fail">Failed to submit this order</string>
+    <string name="product_timeout">This round has been closed</string>
+    <string name="buy_fail_period_out">This round has been closed, go to the lastest round?</string>
+    <string name="recharge_success">Order has been submitted</string>
+    <string name="take_photo">Take a photo</string>
+    <string name="ortake_gallery">Gallery</string>
+    <string name="no_available_app">No support!</string>
+    <!--  add from CN-->
+    <string name="user_center">Your account</string>
+    <string name="recharge">Top up</string>
+    <string name="myorder">My orders</string>
+    <string name="all_in">Orders</string>
+    <string name="on_going">Open</string>
+    <string name="already_announced">Closed</string>
+    <string name="winning_record">Prizes</string>
+    <string name="share_record">Shared</string>
+    <string name="login_select_app">NEW CUSTOMERS CAN GET 5 COINS</string>
+    <string name="my_join_period">Round: </string>
+    <string name="my_join_times">Purchase: </string>
+    <string name="my_join_winner">Winner: </string>
+    <string name="my_join_winner_times">Times</string>
+    <string name="period">Round: </string>
+    <string name="about_version">Version: </string>
+    <string name="about_copyright">Copy Right: </string>
+    <string name="about_phone">Contact phone number: </string>
+    <string name="about_email">Contact email: </string>
+    <string name="login">Login</string>
+    <string name="logining">Loading...</string>
+    <string name="net_not_connected">Connection Time out</string>
+    <string name="cancel_authorize">Cancel this authorization</string>
+    <string name="error_authorize">Failed to Authorize</string>
+    <string name="failed_authorize">Authorizaiotn failure: </string>
+    <string name="failed_connected_server">Cannot connect to network, please try again later.</string>
+    <string name="failed_get_authrize">Failed to authorize, please try again.</string>
+    <string name="show_inform">Report</string>
+    <string name="show_focus">Follow</string>
+    <string name="show_reword_prd">Prize: </string>
+    <string name="show_people_num">Total: </string>
+    <string name="show_lucky_num">Lucky number: </string>
+    <string name="show_publish_time">Publish time: </string>
+    <string name="show_check_detail">View details: </string>
+    <string name="show_detail_comment_hint">Say something: </string>
+    <string name="show_detail_comment_publish">Publish</string>
+    <string name="show_save_pic_result_success">Saved</string>
+    <string name="show_save_pic_result_fail">Fail to save</string>
+    <string name="share_edit_hint">Share your feelings here</string>
+    <string name="share_title">Share it on moments</string>
+    <string name="share_btn_text">I want to share</string>
+    <string name="share_dialog_album">Album</string>
+    <string name="share_dialog_camera">Take a photo</string>
+    <string name="share_dialog_cancel">Cancel</string>
+    <string name="share_introduce_num">Round %s (Delivered)</string>
+    <string name="share_toast_put_pics">Please add your photos</string>
+    <string name="share_no_sdcard">Please confirm your SD card</string>
+    <string name="share_success">Share successfully!</string>
+    <string name="share_fail">Fail to share</string>
+    <string name="share_tips_already">Shared</string>
+    <string name="share_tips_notyet">Not share yet</string>
+    <string name="share_add_pic_tips">Please share your prize including photos</string>
+    <string name="address_add">Add new address</string>
+    <string name="address_save">Save</string>
+    <string name="address_edit_name">Full name</string>
+    <string name="address_edit_num">Phone number</string>
+    <string name="address_edit_address">Address</string>
+    <string name="address_center">Edit address</string>
+    <string name="address_edit">Add new address</string>
+    <string name="address_edit_btn">Edit</string>
+    <string name="address_done_btn">Finish</string>
+    <string name="address_all_choice">Select all</string>
+    <string name="address_choice_num">%s Selected </string>
+    <string name="address_delete">Delete</string>
+    <string name="address_edit_condition_mobile_tips">Incorrect Phone number, please check again</string>
+    <string name="address_edit_condition_name_tips">Please enter your name</string>
+    <string name="address_edit_condition_address_tips">Please enter your address</string>
+    <string name="double_click_back">Tap again to exit</string>
+    <!-- 2016 0505 add -->
+    <string name="nickname_long_hint">No more than 20 letters</string>
+    <string name="recharge_channel_sms">SMS</string>
+    <string name="recharge_channel_card">Cash card</string>
+    <string name="recharge_channel_bank">Online Banking</string>
+    <string name="recharge_channel_line">Line Pay</string>
+    <!-- 2016 0511 add-->
+    <string name="error_login_google_service_update_tips">Please update to the latest version.</string>
+    <string name="address_num_limit_tips"> Address limiltation reached. Please delete some addresses</string>
+    <!-- 2016 0513 add-->
+    <string name="activity_feed_back">Contact us</string>
+    <string name="cs_feedback_advice">Feedback</string>
+    <string name="cs_feedback_product_prize">Report a problem</string>
+    <string name="cs_feedback_edit_tips">Please provide detailed information, so we assist you more efficiently</string>
+    <string name="cs_feedback_edit_email">Email</string>
+    <string name="cs_feedback_btn_ok">Confirm</string>
+    <string name="cs_feedback_format_content_tips">Please leave your comment here.</string>
+    <string name="cs_feedback_format_email_tips">Incorrect Email format</string>
+    <string name="cs_feedback_upload_scuess">Your feedback has been received</string>
+    <string name="order_exception">Sorry! There is something wrong with your order</string>
+    <string name="signout_dialog_yes">Sure</string>
+    <string name="signout_dialog_cancel">Cancel</string>
+    <string name="signout_dialog_tips">Are you sure to logout?</string>
+    <!-- 2016 0516 add-->
+    <string name="categorys">Categories</string>
+    <string name="input_search_empty">Please enter product name or content here </string>
+    <string name="search_result_empty">Results not found</string>
+    <string name="hotword_recommend">Products Recommended</string>
+    <string name="activity_language">Language</string>
+    <string name="total_part_times">Total Times:</string>
+    <string name="retain_part_times">Remaining Times: </string>
+    <!-- 2016 0524 add-->
+    <string name="bluepay_recharge_result_hint">Submitted successfully, please check it later </string>
+    <!--2015 0524 add-->
+    <string name="good_detail_join_next_btn">Join now</string>
+    <string name="good_detail_join_next_tips">Wanna try another round?</string>
+    <string name="good_detail_join_auto_fill_tips">This product requires at least 10 times, your bet will be adjusted automatically</string>
+    <string name="good_detail_join_input_max">Times limit per order: %s times </string>
+    <!--2015 0527 add -->
+    <string name="select_use_mode">Please select a way to top up</string>
+    <string name="selected_use_mode">You’ve selected: </string>
+    <string name="use_mode_coin">I want to redeem %s coins</string>
+    <string name="use_mode_phone">Top up to my phone</string>
+    <string name="select_lable">Select:</string>
+    <string name="recharge_to_phone">Redeem this voucher: send me the card number and password</string>
+    <string name="recharge_to_coin">Redeem this voucher as GoGoBuy coins</string>
+    <string name="select_recharge_phone">Please select a phone number here</string>
+    <string name="recharge_phone_input_hint">Please input your Phone number to top up</string>
+    <string name="wait_product_distributing">Ready to deliver</string>
+    <string name="selected_recharge_to_phone">Select: Redeem this voucher as phone balance</string>
+    <string name="selected_recharge_to_coin">Select: Redeem this as GoGoBuy Coins</string>
+    <string name="recharge_to_phone_success">Transaction Successful</string>
+    <string name="recharge_to_phone_fail">Transaction failed</string>
+    <string name="recharge_to_phone_result">Transaction to %s is successful, the balance might take up to 24 hours to arrive your account</string>
+    <string name="recharge_to_coin_success">Transaction Successful</string>
+    <string name="recharge_to_coin_fail">Transaction failed</string>
+    <string name="recharge_to_coin_result">Transaction succeed, the balance might take up to 24 hours to arrive your account</string>
+    <string name="selected_recharge_phone">Recharging number selected</string>
+    <!--<string name="recharge_to_phone_result_fail">Recharging %s failed, click to contact customer service</string>
+    <string name="recharge_to_coin_result_fail">Contact customer service</string>-->
+    <string name="address_province">Province</string>
+    <string name="address_district">District</string>
+    <string name="address_postcode">Postcode</string>
+    <string name="location_province_empty_hint">Select Province</string>
+    <string name="location_district_empty_hint">Select District</string>
+    <string name="location_postcode_empty_hint">Select Postcode</string>
+    <string name="award_title_hint">You win!</string>
+    <!--2016 0615 add-->
+    <string name="order_logistics_ready_received">Delivering</string>
+    <string name="recharge_tips">Please make sure the chosen top up value is consistent with your top up card value.If the chosen value is lesser than the top up card amount, you will get lesser coins.If the chosen value is greater than the top up card amount, transaction will fail.</string>
+    <string name="recharge_iknow">Got it!</string>
+    <string name="order_buy_web">Purchase from: </string>
+    <string name="order_orderd_id">Order ID: </string>
+    <string name="recharge_to_phone_result_fail_phonenumber_click">Transaction to %s failed, click here to check</string>
+    <string name="recharge_to_coin_result_fail_click">click here to check</string>
+    <string name="recharge_to_coin_result_fail_contact_customer_service">Contact us</string>
+    <!--2016 0620 add-->
+    <string name="product_have_be_sell_out">This product is already sold out, please contact us for more information.</string>
+    <!--2016 0621 add-->
+    <string name="ready_to_recharge">Ready to top up</string>
+    <string name="good_detail_join_input_overall">Overall times limit: %s times</string>
+
+    <!--2016 0719 add-->
+    <string name="avaliable_red_bag">Available Coupon(%s)</string>
+    <string name="ready_to_distribute_red_bag">Coupon to be distributed(%s)</string>
+    <string name="unavaliable_red_bag">Used/Expired coupon</string>
+    <string name="red_envelope_deductible">Discount Coupon</string>
+
+    <!--2016 0729 add-->
+    <!--<string name="remaining_balance">Remaining balance: %s Coins</string>-->
+    <string name="validity">Valid for：%s days</string>
+    <string name="use">Use</string>
+    <string name="delivery_time">Distribution Time：</string>
+    <string name="over_time">Expired</string>
+    <string name="has_been_used">Used</string>
+    <string name="over_time_date">Expire after %s days</string>
+
+    <!--2016 0808 add-->
+    <string name="cut_coin">-%s Coins</string>
+    <string name="remaining_balance">%s Coins</string>
+
+
+    <!--2016 0818 add-->
+    <string name="winner_hint">Winner is %s</string>
+    <string name="tab_home">HOME</string>
+    <string name="tab_classification">CATEGORY</string>
+    <string name="tab_show">SHOW</string>
+    <string name="tab_me">ME</string>
+
+    <!--2016 0825 add-->
+    <string name="user_id">User ID:</string>
+    <string name="due_data">Due data:</string>
+    <string name="algorith_rule">Algorith rule</string>
+
+    <!--2016 0901 add-->
+    <string name="please_select_number">Please choose the number of chances you want to buy.The more you buy,The more chance you will win!</string>
+    <string name="please_select_product">Please select a product to start your GoGoBuy trip!</string>
+    <string name="welcome_to_gogobuy_tips">WELCOME TO</string>
+    <string name="welcome_to_gogobuy_gogobuy_tips">GOGOBUY !</string>
+    <string name="you_win_a_tips">YOU WON A</string>
+    <string name="you_win_a_gift_tips">GIFT</string>
+    <string name="coins_transferred">5 COINS HAVA BEEN TRANSFERRED</string>
+    <string name="to_ur_account">TO UR ACCOUNT</string>
+    <string name="show_balance">SHOW BALANCE</string>
+    <string name="buy_now">BUY NOW</string>
+    <string name="are_you_sure">ARE YOU SURE</string>
+    <string name="to_quit">YOU WANT TO QUIT?</string>
+
+    <string name="coins_for_you">ARE WAITING FOR YOU!</string>
+
+    <string name="yes">YES</string>
+    <string name="no">NO,THANKS</string>
+    <string name="see_it_now">GET IT NOW!</string>
+
+    <string name="last_round_winner">Last Round Winner</string>
+    <string name="search">Search</string>
+
+    <!--2016 0927 add-->
+    <string name="animator_coin_transferred">HAVE BEEN TRANSFERRED TO YOUR ACCOUNT</string>
+    <string name="animator_see_it_now">BUY NOW!</string>
+    <string name="animator_registe">REGISTRATION</string>
+    <string name="animator_successe">SUCCESSFUL</string>
+    <string name="animator_coins">COINS</string>
+    <!--2016 1010 add-->
+    <string name="dream_item">Let’s see your dream item</string>
+    <string name="you_are">You are the</string>
+    <string name="congratulation">Congratulations!</string>
+    <string name="round">ROUND</string>
+    <string name="being_query">CALCULATING </string>
+    <string name="please_wait">PLEASE WAIT</string>
+    <string name="winner_this_round">THE WINNER FOR THIS ROUND IS</string>
+    <string name="goto_homepage">GO TO HOMEPAGE</string>
+    <string name="not_be_sad">DON’T BE SAD!</string>
+    <string name="next_winner_for_you">THE NEXT WINNER MIGHT BE YOU</string>
+    <!--2016 1014 add-->
+    <string name="vn_address_province">State</string>
+    <string name="vn_address_district">District</string>
+    <string name="vn_address_postcode">Ward</string>
+
+    <!--2016 1020 add-->
+    <string name="vn_register_now">NEW USERS GET</string>
+    <string name="vn_for_free">FOR FREE !</string>
+
+    <string name="main_tab_tens_for_vn">10COINS REGION</string>
+
+    <!--2016 1102 add-->
+    <string name="recharge_dialog_text" formatted="false">Are you sure to spend %s THB to buy %s coins?</string>
+    <string name="recharge_dialog_yes">CONFIRM</string>
+    <string name="recharge_dialog_no">CANCLE</string>
+
+    <!--2016 1114 add-->
+    <string name="coupons_count">%s Coupons</string>
+    <string name="coupons_title">Coupons</string>
+
+
+    <!--2016 1130 add-->
+    <string name="user_phone_number">Phone Number</string>
+    <string name="get_verification_code">Get Verification Code</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="login_for_phone">Log in via phone number</string>
+    <string name="login_for_visitor">Visitor Log in</string>
+    <string name="login_for_third_party">Log in via other accounts</string>
+    <string name="login_tips_head"> Tips: The phone number that has not been registered with Gogobuy will log in automatically. By logging in, you agree to</string>
+    <string name="login_tips_end">Gogobuy’s Service Terms’ Agreement</string>
+    <string name="send_again">Send Again</string>
+    <string name="phone_number_empty">Phone Number cannot be empty</string>
+    <string name="verification_number_empty">Verification code cannot be empty</string>
+    <string name="verification_error">Verification code error</string>
+    <string name="bind">Bind</string>
+    <string name="bind_tips">In case of uninstall or device change, the information for Visitor Account cannot be restored. To protect your account, you can bind it with phone number, Facebook or Google+</string>
+    <string name="switch_account">Change account</string>
+    <string name="have_band">The account has already been bound</string>
+    <string name="bind_other_user">The device is already bound to another account</string>
+
+    <!-- 2016 1205 add -->
+    <string name="promotion_code">PROMOTION CODE</string>
+    <string name="invite_friends_win_coins">Invite friends to win coins</string>
+    <string name="enter_your_promotion_code">Enter your promotion code</string>
+    <string name="general">GENERAL</string>
+
+    <!-- 2016 1206 add -->
+    <string name="submit">Submit</string>
+    <string name="please_enter_your_invite_code">Enter your invitation code</string>
+    <string name="your_invite_code_is">Your invitation code is:</string>
+    <string name="can_invite_friends_win_coins">Invite friends to get more coins?</string>
+    <string name="click_to_check_detail">Click here view details></string>
+    <string name="already_share_n_friends">You already shared %1$s friends</string>
+    <string name="already_gain_n_coins">You have already won %1$s coins</string>
+    <string name="share_to">Share to</string>
+    <string name="do_you_love_gogobuy">Do you like Gogobuy?</string>
+    <string name="go_google_play_give_five_star"> Give Gogobuy 5 Stars!</string>
+    <string name="later">Later</string>
+    <string name="give_five_star">Rate us now</string>
+    <string name="copy">COPY</string>
+    <string name="copy_success">Copy success!</string>
+
+    <!--  2016 1207 add  -->
+    <string name="not_install_line">Share via Line failed because haven’t installed LINE.</string>
+    <string name="not_install_messenger"> Share via Messenger failed because you haven’t installed Messenger.</string>
+    <string name="invite_code_enter_success">Your invitation code is proceeded successfully. Coins will be transferred to your account soon.</string>
+    <string name="invite_code_enter_wrong">Your invitation code failed. Please input again.</string>
+    <string name="invite_code_enter_already">You have successfully obtained the coins, buy now!</string>
+    <string name="line">Line</string>
+    <string name="facebook">Facebook</string>
+    <string name="messenger">Messenger</string>
+    <string name="sms">SMS</string>
+    <string name="mail">Email</string>
+
+    <!--  2016 1208 add  -->
+    <string name="enter_invitation_code">Enter promotion code (optional)</string>
+
+    <!--  2016 1212 add  -->
+    <string name="vitification_tries_limit">Verification code limit reached</string>
+    <string name="invite_code_enter_wrong_in_regist"> You have entered wrong invitation code. You can input again on the invitation page in setting menu.</string>
+
+    <!-- 20161213 add-->
+    <string name="all_photos">All photos</string>
+    <string name="choose_photo">Select photos</string>
+    <string name="choose_photo_folder">Select photo folder</string>
+    <string name="can_only_select_n_photos">Can choose only %1$s photos</string>
+    <string name="complete">Complete</string>
+    <string name="done">Done</string>
+    <string name="photo_folder_files_num">( %1$s )</string>
+    <string name="open_camera_failed">Failed to open Camera</string>
+    <!--  2016 1214 add  -->
+    <string name="you_may_also_like">You may also like</string>
+    <string name="no_available">Not available</string>
+    <string name="no_select">Not selected</string>
+    <string name="bet_now_totle">Total: %1$s coins</string>
+    <string name="user_type">can be used with all products</string>
+    <string name="topup_hint">After successful top up, coins will be transferred to your account. You can check the balance in your personal setting.</string>
+
+    <!-- 2016 1215 add -->
+    <string name="view_details_with_arrow">View details ></string>
+    <string name="prize_name">Prize: %1$s</string>
+    <string name="award_time">Time: %1$s</string>
+
+    <!--  2016 1216 add  -->
+    <string name="choose_coupons">Choose coupons</string>
+    <string name="available_coupons">Available Coupons</string>
+    <string name="unavailable_coupons">Unavailable Coupons</string>
+    <string name="available_coupons_tips">No available coupons！</string>
+    <string name="unavailable_coupons_tips">No unavailable coupons！</string>
+
+    <string name="no_longer_prompt">Don’t ask again</string>
+    <string name="start_sharing">START SHARING</string>
+    <string name="share_prize_input_too_long">Content is too long. Content cannot exceed %1$s words</string>
+    <string name="share_prize_input_not_empty">The content cannot be empty</string>
+    <string name="add_at_least_one_photo">Please select at least one photo</string>
+    <string name="win">WIN</string>
+
+    <!-- 20161219 add -->
+    <string name="good_sharing">Excellent Moment</string>
+
+    <!-- 20161222 add -->
+    <string name="lable_coin_1">(%d Coins)</string>
+    <string name="main_guide_tip">Choose your dream item. Let’s try with this hot item!</string>
+    <!-- 20161223 add -->
+    <string name="title_message">Message</string>
+    <string name="notify_available_coupon_title">New coupons!</string>
+    <string name="notify_available_coupon_content">Gogobuy give you new coupons. Use now!</string>
+    <string name="transaction_successful_title">Transaction Successful!</string>
+    <string name="transaction_successful_bet">Bet：</string>
+    <string name="transaction_successful_remaing">Remaining</string>
+    <string name="transaction_successful_tips">There will be a notification when the product is sold out and ready to calculate the winner. Please make sure your notification is turned on.</string>
+    <string name="transaction_successful_continue_betting">CONTINUE BETTING</string>
+    <string name="transaction_successful_continue_see_the_order">SEE THE ORDER</string>
+
+    <!-- 20161227 add -->
+    <string name="coupons_part">Coupons</string>
+
+    <!-- 20161228 -->
+    <string name="share_prize_tip_dialog_content_1">Please make sure to express your feeling and include your picture with the products!</string>
+    <string name="share_prize_tip_dialog_content_2">More impressive content get more coins!!!</string>
+
+    <!-- 20170105 -->
+    <string name="coins_unit">%d coins/time</string>
+    <string name="use_min_amount">Minimum Spending %s</string>
+
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000"
+    android:clickable="true"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/layout_section"
+        android:layout_width="250dp"
+        android:layout_height="@dimen/toolbar_height"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_bet_now"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bet_now_selector"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="@string/part_now"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_gif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+</LinearLayout>

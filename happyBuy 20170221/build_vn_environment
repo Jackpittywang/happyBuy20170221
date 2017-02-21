@@ -1,0 +1,29 @@
+WORKSPACE=$(pwd)
+echo 'start build vn develop environment ----------'
+rm ${WORKSPACE}/app/build.gradle
+cp ${WORKSPACE}/Environment/vn/build.gradle ${WORKSPACE}/app/build.gradle
+
+rm ${WORKSPACE}/app/google-services.json
+cp ${WORKSPACE}/Environment/vn/google-services.json ${WORKSPACE}/app/google-services.json
+
+rm ${WORKSPACE}/app/src/main/res/values/third_keys.xml
+cp ${WORKSPACE}/Environment/vn/third_keys.xml ${WORKSPACE}/app/src/main/res/values/third_keys.xml
+
+rm -rf ${WORKSPACE}/app/src/main/assets/config
+cp -r ${WORKSPACE}/Environment/vn/config ${WORKSPACE}/app/src/main/assets/config
+
+rm ${WORKSPACE}/app/src/main/java/build/Environment.java
+if [ "${1}"x = "test"x ]
+then
+    cp ${WORKSPACE}/Environment/vn/test/debug/Environment.java ${WORKSPACE}/app/src/main/java/build/Environment.java
+else
+    cp ${WORKSPACE}/Environment/vn/prod/debug/Environment.java ${WORKSPACE}/app/src/main/java/build/Environment.java
+fi
+
+rm ${WORKSPACE}/bluepay/src/main/assets/BluePay.ref
+cp ${WORKSPACE}/Environment/vn/test/BluePay.ref ${WORKSPACE}/bluepay/src/main/assets/BluePay.ref
+
+echo 'end -----------------------------------------'
+
+
+

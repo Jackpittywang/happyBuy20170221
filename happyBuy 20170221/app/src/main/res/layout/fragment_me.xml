@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <dotc.android.happybuy.uibase.component.HBToolbar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_alignParentTop="true"
+        />
+
+    <dotc.android.happybuy.modules.me.widget.MeRefreshLayout
+        android:id="@+id/layout_me_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <include
+            layout="@layout/listheader_loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <include
+            layout="@layout/layout_usercenter_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <include
+            layout="@layout/layout_usercenter_tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <dotc.android.happybuy.modules.me.widget.MeTabListViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/usercenter_tab_height"
+            />
+    </dotc.android.happybuy.modules.me.widget.MeRefreshLayout>
+
+</LinearLayout>

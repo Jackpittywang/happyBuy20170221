@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <dotc.android.happybuy.uibase.component.HBToolbar
+        android:id="@+id/tbPhotoFolderChoose"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height" />
+
+    <ListView
+        android:id="@+id/lvPhotoFolderChoose"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/white_grey"
+        android:dividerHeight="0.5dp"
+        android:scrollbars="none" />
+</LinearLayout>

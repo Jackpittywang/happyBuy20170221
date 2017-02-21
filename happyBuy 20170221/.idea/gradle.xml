@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/adlibrary-release" />
+            <option value="$PROJECT_DIR$/analyticssdk-release" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bluepay" />
+            <option value="$PROJECT_DIR$/boostball-library-release" />
+            <option value="$PROJECT_DIR$/common-library-release" />
+            <option value="$PROJECT_DIR$/dotnewsres-release" />
+            <option value="$PROJECT_DIR$/fastcharge-release-1.6.8" />
+            <option value="$PROJECT_DIR$/libautolog_20160902c" />
+            <option value="$PROJECT_DIR$/maxlibrary-release" />
+            <option value="$PROJECT_DIR$/pulltorefresh-library" />
+            <option value="$PROJECT_DIR$/updatesdk-library-release-v1.0.1000.0909-r10864" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

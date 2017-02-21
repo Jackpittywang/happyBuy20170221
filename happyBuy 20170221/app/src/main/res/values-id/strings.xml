@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="action_settings">Pengaturan</string>
+    <string name="activity_recharge">Top up</string>
+    <string name="activity_goods_detail">Detail</string>
+    <string name="activity_goods_category">Kategori</string>
+    <string name="activity_goods_confirm">Konfirmasikan</string>
+    <string name="activity_pay">Pembayaran</string>
+    <string name="activity_profile">Profil</string>
+    <string name="activity_setting">Pengaturan</string>
+    <string name="activity_pass_mgr">Kata Sandi</string>
+    <string name="activity_agreement">Ketentuan Layanan</string>
+    <string name="activity_about">Tentang</string>
+    <string name="activity_show">Lihat siapa yang beruntung</string>
+    <string name="activity_show_detail">Tampilkan detail</string>
+    <string name="activity_share_prize">Momen Pemenang</string>
+    <string name="activity_address_select">Pilih</string>
+    <string name="activity_address_center">Alamat pengiriman</string>
+    <string name="activity_address_edit">Sunting alamat</string>
+    <string name="activity_recharge_instruction">Cara top up</string>
+    <string name="choice_recharge_amount">Pilih jumlah</string>
+    <string name="choice_pay_channel">Pilih metode pembayaran</string>
+    <string name="choice_part_person_time">Pilih jumlah peluang</string>
+    <string name="your_particate">Pembelian Anda: </string>
+    <string name="recharge_now">Top up</string>
+    <string name="pay_now">Pasang Taruhan</string>
+    <string name="pay_amount">Total</string>
+    <string name="times_total">Total </string>
+    <string name="times_retain">Tersisa</string>
+    <string name="account_balance">Saldo akun</string>
+    <string name="part_now">Pasang Taruhan</string>
+    <string name="part">Pasang Taruhan</string>
+    <string name="part_add">Tambahan</string>
+    <string name="paypal">Paypal</string>
+    <string name="google_pay">Google Pay</string>
+    <string name="pass_mgr">Kata Sandi</string>
+    <string name="app_version_check">Periksa pembaruan</string>
+    <string name="agreement">Ketentuan Layanan</string>
+    <string name="about">Tentang</string>
+    <string name="user_exit">Keluar</string>
+    <string name="lucky_number">Nomor beruntung: </string>
+    <string name="part_try_hint">Ayo gabung untuk memenangkan ini!</string>
+    <string name="particate_number">Nomor tiket Anda: </string>
+    <string name="label_congratulate">Selamat, </string>
+    <string name="label_obtain">Menang </string>
+    <string name="product_not_found">Tidak ada hasil</string>
+    <string name="net_request_error">Gagal terhubung ke jaringan</string>
+    <string name="net_request_retry">Ketuk untuk mencoba lagi</string>
+    <string name="image_text_detail">Tampilkan detail</string>
+    <string name="timeline_share">Momen Pemenang</string>
+    <string name="history_look">Pratampil</string>
+    <string name="calc_detail">Bagaimana cara menghitung Nomor Beruntung?</string>
+    <string name="award_date">Tanggal jatuh tempo: </string>
+    <string name="award_count_down">Hitung mundur: </string>
+    <string name="label_period_">Ronde: %s</string>
+    <string name="period_part">Partisipasi periode ini: </string>
+    <string name="all_part_recorder">Semua pembelian</string>
+    <string name="part_detail">Tampilkan detail</string>
+    <string name="product_state_doing">Dibuka</string>
+    <string name="product_state_done">Ditutup</string>
+    <string name="product_state_share">Dibagikan</string>
+    <string name="label_recharge">Top up</string>
+    <string name="label_winner">Pemenang</string>
+    <string name="label_show">Tampilkan</string>
+    <string name="label_support">Dukungan</string>
+    <string name="last_award">Pemenang</string>
+    <string name="help_center">Pusat Bantuan</string>
+    <string name="main_tab_all">Semua BARANG</string>
+    <string name="main_tab_tens">WILAYAH 10THB</string>
+    <string name="click_retry">Klik untuk mencoba lagi</string>
+    <string name="loadmore_empty">Tidak ada lagi produk</string>
+    <string name="times">kali</string>
+    <string name="win_prize">Selamat, Anda menang!</string>
+    <string name="lable_period_name">Ronde: %s</string>
+    <string name="lable_winner">Pemenang: %s</string>
+    <string name="lable_period_times">Partisipasi periode ini: %s kali</string>
+    <string name="lable_win_number">Nomor beruntung: %s</string>
+    <string name="list_empty_hint">Tidak ada data</string>
+    <string name="list_winner_empty_hint">Anda belum pernah memenangkan hadiah</string>
+    <string name="computing">Menghitung...</string>
+    <string name="commiting">Mengirim...</string>
+    <string name="loading">Memuat...</string>
+    <string name="load_more">Muat lainnya</string>
+    <string name="data_empty">Tidak ada data</string>
+    <string name="load_failed">Gagal memuat data</string>
+    <string name="network_exception">Kegagalan jaringan</string>
+    <string name="commiting_failed">Gagal mengunggah</string>
+    <string name="commiting_success">Berhasil mengirim</string>
+    <string name="ok">Oke</string>
+    <string name="cancel">Batalkan</string>
+    <string name="view">Tampilkan</string>
+    <string name="modify_nickname">Sunting nama Login</string>
+    <string name="nickname_empty_hint">Silakan masukkan Login Anda</string>
+    <string name="portrait">Foto</string>
+    <string name="nickname">Nama Login</string>
+    <string name="address_manager">Kelola alamat Anda</string>
+    <string name="portrait_commit_success">Foto disimpan</string>
+    <string name="portrait_commit_fail">Gagal mengunggah</string>
+    <string name="product_state">Status produk: </string>
+    <string name="product_track">Lacak produk Anda: </string>
+    <string name="award_congratulation">Selamat, Anda memenangkan</string>
+    <string name="award_address_select">Silakan pilih alamat pengiriman</string>
+    <string name="award_address_selected">Alamat pengiriman dipilih</string>
+    <string name="award_share_select">Bagikan di Momen Pemenang</string>
+    <string name="award_share_selected">Dibagikan</string>
+    <string name="order_logistics_shippe">Siap dikirim</string>
+    <string name="order_logistics_shipped">Dikirimkan</string>
+    <string name="order_logistics_received">Diterima</string>
+    <string name="order_logistics_close">Pengiriman Selesai</string>
+    <string name="award_share_look">Tampilkan detail</string>
+    <string name="address_empty">Sunting alamat pengiriman Anda</string>
+    <string name="create_address">Tambahkan alamat</string>
+    <string name="lable_coin">%d Koin</string>
+    <string name="coin">Koin</string>
+    <string name="order_creating">Memasukkan pesanan ini...</string>
+    <string name="order_paying">Memproses pembayaran Anda...</string>
+    <string name="query_order_result">Mohon tunggu untuk mengonfirmasikan pesanan Anda...</string>
+    <string name="billing_env_fail">Pembayaran gagal, silakan periksa jaringan Anda</string>
+    <string name="order_pay_done">Pesanan Anda\n berhasil dimasukkan</string>
+    <string name="recharge_result">Top up</string>
+    <string name="buy_fail_money_not_enough">Saldo tidak mencukupi</string>
+    <string name="buy_fail_times_not_enough">Jumlah peserta tidak cukup untuk melanjutkan</string>
+    <string name="order_pay_fail">Gagal memasukkan pesanan ini</string>
+    <string name="product_timeout">Ronde ini sudah ditutup</string>
+    <string name="buy_fail_period_out">Ronde ini sudah ditutup, pindah ke ronde terbaru?</string>
+    <string name="recharge_success">Pesanan sudah dimasukkan</string>
+    <string name="take_photo">Ambil foto</string>
+    <string name="ortake_gallery">Galeri</string>
+    <string name="no_available_app">Tidak ada dukungan!</string>
+    <string name="user_center">Akun Anda</string>
+    <string name="recharge">Top up</string>
+    <string name="myorder">Pesanan saya</string>
+    <string name="all_in">Pesanan</string>
+    <string name="on_going">Dibuka</string>
+    <string name="already_announced">Ditutup</string>
+    <string name="winning_record">Hadiah</string>
+    <string name="share_record">Dibagikan</string>
+    <string name="login_select_app">PELANGGAN BARU BISA MENDAPATKAN 5 KOIN</string>
+    <string name="my_join_period">Ronde: </string>
+    <string name="my_join_times">Pembelian: </string>
+    <string name="my_join_winner">Pemenang: </string>
+    <string name="my_join_winner_times">Peluang</string>
+    <string name="period">Ronde: </string>
+    <string name="about_version">Versi: </string>
+    <string name="about_copyright">Hak Cipta: </string>
+    <string name="about_phone">Nomor kontak: </string>
+    <string name="about_email">Email kontak: </string>
+    <string name="login">Masuk</string>
+    <string name="logining">Memuat...</string>
+    <string name="net_not_connected">Waktu Koneksi Habis</string>
+    <string name="cancel_authorize">Batalkan otorisasi ini</string>
+    <string name="error_authorize">Otorisasi Gagal</string>
+    <string name="failed_authorize">Kegagalan otorisasi: </string>
+    <string name="failed_connected_server">Tidak dapat terhubung ke jaringan, silakan coba lagi nanti.</string>
+    <string name="failed_get_authrize">Otorisasi gagal, silakan coba lagi.</string>
+    <string name="show_inform">Laporkan</string>
+    <string name="show_focus">Ikuti</string>
+    <string name="show_reword_prd">Hadiah: </string>
+    <string name="show_people_num">Total: </string>
+    <string name="show_lucky_num">Nomor beruntung: </string>
+    <string name="show_publish_time">Waktu terbit: </string>
+    <string name="show_check_detail">Tampilkan detail: </string>
+    <string name="show_detail_comment_hint">Ucapkan sesuatu: </string>
+    <string name="show_detail_comment_publish">Terbitkan</string>
+    <string name="show_save_pic_result_success">Disimpan</string>
+    <string name="show_save_pic_result_fail">Gagal menyimpan</string>
+    <string name="share_edit_hint">Bagikan perasaan Anda di sini</string>
+    <string name="share_title">Bagikan di momen</string>
+    <string name="share_btn_text">Saya ingin berbagi</string>
+    <string name="share_dialog_album">Album</string>
+    <string name="share_dialog_camera">Ambil foto</string>
+    <string name="share_dialog_cancel">Batalkan</string>
+    <string name="share_introduce_num">Ronde %s (Sudah Dikirim)</string>
+    <string name="share_toast_put_pics">Mohon tambahkan foto Anda</string>
+    <string name="share_no_sdcard">Mohon konfirmasikan kartu SD Anda</string>
+    <string name="share_success">Berhasil membagikan!</string>
+    <string name="share_fail">Gagal membagikan</string>
+    <string name="share_tips_already">Dibagikan</string>
+    <string name="share_tips_notyet">Belum dibagikan</string>
+    <string name="share_add_pic_tips">Mohon bagikan hadiah Anda disertai foto</string>
+    <string name="address_add">Tambahkan alamat baru</string>
+    <string name="address_save">Simpan</string>
+    <string name="address_edit_name">Nama lengkap</string>
+    <string name="address_edit_num">Nomor telepon</string>
+    <string name="address_edit_address">Alamat</string>
+    <string name="address_center">Sunting alamat</string>
+    <string name="address_edit">Tambahkan alamat baru</string>
+    <string name="address_edit_btn">Sunting</string>
+    <string name="address_done_btn">Selesai</string>
+    <string name="address_all_choice">Pilih semua</string>
+    <string name="address_choice_num">%s Dipilih </string>
+    <string name="address_delete">Hapus</string>
+    <string name="address_edit_condition_mobile_tips">Nomor Telepon salah, silakan periksa kembali</string>
+    <string name="address_edit_condition_name_tips">Silakan masukkan nama Anda</string>
+    <string name="address_edit_condition_address_tips">Silakan masukkan alamat Anda</string>
+    <string name="double_click_back">Ketuk lagi untuk keluar</string>
+    <string name="nickname_long_hint">Tidak lebih dari 20 huruf</string>
+    <string name="recharge_channel_sms">SMS</string>
+    <string name="recharge_channel_card">Cash card</string>
+    <string name="recharge_channel_bank">Online Banking</string>
+    <string name="recharge_channel_line">Line Pay</string>
+    <string name="error_login_google_service_update_tips">Silakan perbarui ke versi terbaru.</string>
+    <string name="address_num_limit_tips"> Batas maksimal jumlah alamat dicapai. Silakan hapus beberapa alamat.</string>
+    <string name="activity_feed_back">Hubungi kami</string>
+    <string name="cs_feedback_advice">Masukan</string>
+    <string name="cs_feedback_product_prize">Laporkan masalah</string>
+    <string name="cs_feedback_edit_tips">Mohon berikan informasi yang terperinci agar kami dapat membantu Anda dengan lebih efisien.</string>
+    <string name="cs_feedback_edit_email">Email</string>
+    <string name="cs_feedback_btn_ok">Konfirmasikan</string>
+    <string name="cs_feedback_format_content_tips">Silakan tuliskan komentar Anda di sini.</string>
+    <string name="cs_feedback_format_email_tips">Format Email salah</string>
+    <string name="cs_feedback_upload_scuess">Masukan Anda telah diterima</string>
+    <string name="order_exception">Maaf! Terjadi kesalahan dengan pesanan Anda</string>
+    <string name="signout_dialog_yes">Yakin</string>
+    <string name="signout_dialog_cancel">Batalkan</string>
+    <string name="signout_dialog_tips">Anda yakin ingin keluar?</string>
+    <string name="categorys">Kategori</string>
+    <string name="input_search_empty">Silakan masukkan nama produk atau konten di sini </string>
+    <string name="search_result_empty">Hasil tidak ditemukan</string>
+    <string name="hotword_recommend">Produk Rekomendasi</string>
+    <string name="activity_language">Bahasa</string>
+    <string name="total_part_times">Total Peluang:</string>
+    <string name="retain_part_times">Sisa Peluang: </string>
+    <string name="bluepay_recharge_result_hint">Berhasil dimasukkan, silakan periksa lagi nanti </string>
+    <string name="good_detail_join_next_btn">Gabung sekarang</string>
+    <string name="good_detail_join_next_tips">Ingin mencoba ronde lainnya?</string>
+    <string name="good_detail_join_auto_fill_tips">Produk ini perlu setidaknya 10 kali, taruhan Anda akan disesuaikan otomatis</string>
+    <string name="good_detail_join_input_max">Batas peluang per pesanan: %s kali </string>
+    <string name="select_use_mode">Silakan pilih cara top up</string>
+    <string name="selected_use_mode">Anda memilih: </string>
+    <string name="use_mode_coin">Saya ingin menukarkan %s koin</string>
+    <string name="use_mode_phone">Top up ke ponsel saya</string>
+    <string name="select_lable">Pilih:</string>
+    <string name="recharge_to_phone">Tukarkan kupon ini: kirimi saya nomor kartu dan kata sandi</string>
+    <string name="recharge_to_coin">Tukarkan kupon ini sebagai koin GoGoBuy</string>
+    <string name="select_recharge_phone">Silakan pilih nomor telepon di sini</string>
+    <string name="recharge_phone_input_hint">Silakan masukkan nomor telepon Anda untuk top up</string>
+    <string name="wait_product_distributing">Siap dikirim</string>
+    <string name="selected_recharge_to_phone">Pilih: Tukarkan kupon ini sebagai pulsa telepon</string>
+    <string name="selected_recharge_to_coin">Pilih: Tukarkan ini sebagai Koin GoGoBuy</string>
+    <string name="recharge_to_phone_success">Transaksi Berhasil</string>
+    <string name="recharge_to_phone_fail">Transaksi Gagal</string>
+    <string name="recharge_to_phone_result">Transaksi ke %s berhasil, saldo ini mungkin butuh waktu hingga 24 jam untuk sampai ke akun Anda</string>
+    <string name="recharge_to_coin_success">Transaksi Berhasil</string>
+    <string name="recharge_to_coin_fail">Transaksi Gagal</string>
+    <string name="recharge_to_coin_result">Transaksi berhasil, saldo ini mungkin butuh waktu hingga 24 jam untuk sampai ke akun Anda</string>
+    <string name="selected_recharge_phone">Nomor pengisian ulang dipilih</string>
+    <string name="address_province">Provinsi</string>
+    <string name="address_district">Distrik</string>
+    <string name="address_postcode">Kode Pos</string>
+    <string name="location_province_empty_hint">Pilih Provinsi</string>
+    <string name="location_district_empty_hint">Pilih Distrik</string>
+    <string name="location_postcode_empty_hint">Pilih Kode Pos</string>
+    <string name="award_title_hint">Anda menang!</string>
+    <string name="order_logistics_ready_received">Sedang mengirim</string>
+    <string name="recharge_tips">Jumlah yang Anda pilih akan disesuaikan otomatis, harap pastikan saldo pada kartu Top Up Anda mencukupi untuk melakukan pembayaran</string>
+    <string name="recharge_iknow">Saya paham!</string>
+    <string name="order_buy_web">Dibeli dari: </string>
+    <string name="order_orderd_id">ID Pesanan: </string>
+    <string name="recharge_to_phone_result_fail_phonenumber_click">Transaksi ke %s gagal, klik di sini untuk memeriksa</string>
+    <string name="recharge_to_coin_result_fail_click">klik di sini untuk memeriksa</string>
+    <string name="recharge_to_coin_result_fail_contact_customer_service">Hubungi kami</string>
+    <string name="product_have_be_sell_out">Produk ini sudah terjual habis, silakan hubungi kami untuk informasi lebih lanjut.</string>
+    <string name="ready_to_recharge">Siap untuk top up</string>
+    <string name="good_detail_join_input_overall">Batas peluang keseluruhan: %s kali</string>
+
+    <string name="avaliable_red_bag">Kupon Tersedia(%s)</string>
+    <string name="ready_to_distribute_red_bag">Kupon untuk distribusi(%s)</string>
+    <string name="unavaliable_red_bag">Kupon Terpakai/Kedaluwarsa</string>
+    <string name="red_envelope_deductible">Kupon Diskon</string>
+
+    <string name="validity">Berlaku selama：%s hari</string>
+    <string name="use">Pakai</string>
+    <string name="delivery_time">Waktu Distribusi：</string>
+    <string name="over_time">Kedaluwarsa</string>
+    <string name="has_been_used">Terpakai</string>
+    <string name="over_time_date">Kedaluwarsa setelah %s hari</string> Kedaluwarsa setelah %s hari           <string name="cut_coin">-%s Koin</string>
+    <string name="remaining_balance">%s Koin</string>
+
+
+    <string name="winner_hint">Pemenangnya adalah %s</string>
+    <string name="tab_home">BERANDA</string>
+    <string name="tab_classification">KATEGORI</string>
+    <string name="tab_show">TAMPILKAN</string>
+    <string name="tab_me">SAYA</string>
+
+    <string name="user_id">ID Pengguna:</string>
+    <string name="due_data">Data jatuh tempo:</string>
+    <string name="algorith_rule">Rumus algoritme</string>
+
+    <string name="please_select_number">Silakan pilih jumlah peluang yang ingin Anda beli. Semakin banyak Anda membeli, semakin besar peluang kemenangan Anda!</string>
+    <string name="please_select_product">Silakan pilih sebuah produk untuk memulai kegembiraan Anda bersama GoGoBuy!</string>
+    <string name="welcome_to_gogobuy_tips">SELAMAT DATANG DI</string>
+    <string name="welcome_to_gogobuy_gogobuy_tips">GO GO BUY!</string>
+    <string name="you_win_a_tips">ANDA MEMENANGKAN SEBUAH</string>
+    <string name="you_win_a_gift_tips">HADIAH</string>
+    <string name="coins_transferred">5 KOIN SUDAH DITRANSFER</string>
+    <string name="to_ur_account">KE AKUN ANDA</string>
+    <string name="show_balance">TAMPILKAN SALDO</string>
+    <string name="buy_now">BELI SEKARANG</string>
+    <string name="are_you_sure">ANDA YAKIN</string>
+    <string name="to_quit">INGIN KELUAR?</string>
+
+    <string name="coins_for_you">MENANTI ANDA!</string>
+
+    <string name="yes">YA</string>
+    <string name="no">TIDAK, TERIMA KASIH</string>
+    <string name="see_it_now">DAPATKAN SEKARANG!</string>
+
+    <string name="last_round_winner">Pemenang Ronde Terakhir</string>
+    <string name="search">Cari</string>
+
+    <string name="animator_coin_transferred">TELAH DITRANSFER KE AKUN ANDA</string>
+    <string name="animator_see_it_now">BELI SEKARANG!</string>
+    <string name="animator_registe">REGISTRASI</string>
+    <string name="animator_successe">BERHASIL</string>
+    <string name="animator_coins">KOIN</string>
+    <string name="dream_item">Mari lihat barang impian Anda</string>
+    <string name="you_are">Anda adalah</string>
+    <string name="congratulation">Selamat!</string>
+    <string name="round">RONDE</string>
+    <string name="being_query">MENGHITUNG </string>
+    <string name="please_wait">MOHON TUNGGU</string>
+    <string name="winner_this_round">PEMENANG RONDE INI ADALAH</string>
+    <string name="goto_homepage">KE BERANDA</string>
+    <string name="not_be_sad">JANGAN BERSEDIH!</string>
+    <string name="next_winner_for_you">PEMENANG BERIKUTNYA MUNGKIN ADALAH ANDA</string>
+<!-- no need  translate -->
+<!--<string name="app_name">LoginDemo-ShareSDK</string>-->
+<!--  add from CN-->
+<!-- 2016 0505 add -->
+<!-- 2016 0511 add-->
+<!-- 2016 0513 add-->
+<!-- 2016 0516 add-->
+<!-- 2016 0524 add-->
+<!--2015 0524 add-->
+<!--2015 0527 add -->
+<!--<string name="recharge_to_phone_result_fail">Recharging %s failed, click to contact customer service</string>
+    <string name="recharge_to_coin_result_fail">Contact customer service</string>-->
+<!--2016 0615 add-->
+<!--2016 0620 add-->
+<!--2016 0621 add-->
+<!--2016 0719 add-->
+<!--2016 0729 add-->
+<!--<string name="remaining_balance">Remaining balance: %s Coins</string>-->
+<!--2016 0808 add-->
+<!--2016 0818 add-->
+<!--2016 0825 add-->
+<!--2016 0901 add-->
+<!--2016 0927 add-->
+<!--2016 1010 add-->
+</resources>

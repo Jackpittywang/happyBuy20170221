@@ -1,0 +1,36 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": {
+    "list": [
+      {
+        "id": "1",
+        "coupon_id": "1",
+        "uid": "1",
+        "begin_time": "1470120829",
+        "end_time": "1471220829",
+        "name": "rule1",
+        "amount": "10",
+        "desc": "test",
+        "gain_rule_type": "1",
+        "gain_rule_day": "1",
+        "gain_rule_min_amount": "10",
+        "use_amount": "10"
+      },
+      {
+        "id": "2",
+        "coupon_id": "2",
+        "uid": "1",
+        "begin_time": "1470120829",
+        "end_time": "1470651900",
+        "name": "rule1",
+        "amount": "10",
+        "desc": "test2",
+        "gain_rule_type": "1",
+        "gain_rule_day": "1",
+        "gain_rule_min_amount": "10",
+        "use_amount": "10"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_awarding_timerdown"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageview_timerdown_placehold"
+        android:layout_width="@dimen/awarding_image_width"
+        android:layout_height="@dimen/awarding_image_height"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:id="@+id/imageview_disk"
+        android:layout_width="262dp"
+        android:layout_height="67dp"
+        android:layout_below="@+id/imageview_timerdown_placehold"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_awarding_disk"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:id="@+id/timerdown_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageview_disk"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text=""
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/timerdown_product_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textColor="#fffff600"
+        android:text="22222222"
+        android:visibility="gone"
+        />
+</RelativeLayout>

@@ -1,0 +1,3 @@
+打包注意事项
+Environment对应的国家的build.gradle将versionCode加一
+jenkins脚本修改country和codename

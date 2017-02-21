@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/award_cell_layout"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout style="@style/award_cell_left_layer"
+            android:clickable="true">
+
+            <View style="@style/award_cell_left_top_fill" />
+
+            <ImageView style="@style/award_cell_left_circle"
+                android:id="@+id/iv_select_address"
+                />
+
+            <View style="@style/award_cell_left_fill" />
+        </LinearLayout>
+
+        <include layout="@layout/layout_prize_info_address" />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/award_cell_layout"
+        android:layout_height="wrap_content">
+
+        <LinearLayout style="@style/award_cell_left_layer"
+            android:clickable="true">
+
+            <View style="@style/award_cell_left_top_fill" />
+
+            <ImageView style="@style/award_cell_left_circle"
+                android:background="@drawable/white_circle_selector"
+                android:id="@+id/iv_ready_to_deliver"/>
+
+            <View style="@style/award_cell_left_fill" />
+        </LinearLayout>
+
+        <include layout="@layout/layout_order_status" />
+        <!--<TextView
+        android:id="@+id/textview_order_status"
+        style="@style/award_cell_subject"
+        android:text="@string/order_logistics_shippe"
+        />-->
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/award_cell_layout"
+        android:layout_height="50dp">
+
+        <LinearLayout style="@style/award_cell_left_layer"
+            android:clickable="true">
+
+            <View style="@style/award_cell_left_top_fill" />
+
+            <ImageView style="@style/award_cell_left_circle"
+                android:id="@+id/iv_have_received"
+                android:background="@drawable/white_circle_selector" />
+
+            <View style="@style/award_cell_left_fill" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_has_reseived"
+            style="@style/award_cell_subject"
+            android:text="@string/order_logistics_ready_received"
+            />
+        <TextView
+            android:id="@+id/order_received_time"
+            style="@style/award_cell_time"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_has_received"
+        style="@style/award_cell_layout"
+        android:layout_height="50dp"
+        android:visibility="gone">
+
+        <LinearLayout style="@style/award_cell_left_layer"
+            android:clickable="true">
+
+            <View style="@style/award_cell_left_top_fill" />
+
+            <ImageView style="@style/award_cell_left_circle"
+                android:id="@+id/iv_has_received"/>
+
+            <View style="@style/award_cell_left_fill" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview_order_logistics_received"
+            style="@style/award_cell_subject"
+            android:text="@string/order_logistics_received"
+            />
+    </LinearLayout>
+</LinearLayout>

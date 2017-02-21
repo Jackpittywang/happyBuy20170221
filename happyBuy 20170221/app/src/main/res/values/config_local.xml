@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="th_language">
+        <item>English</item>
+        <item>ไทย</item>
+    </string-array>
+    <string-array name="vn_language">
+        <item>English</item>
+        <item>Tiếng Việt</item>
+    </string-array>
+    <string-array name="id_language">
+        <item>English</item>
+        <item>Indonesia</item>
+    </string-array>
+
+    <string name="th_symbol">฿</string>
+    <string name="vn_symbol">₫</string>
+    <string name="id_symbol">Rp</string>
+
+    <string name="th_default_lang">en</string>
+    <string name="vn_default_lang">en</string>
+    <string name="id_default_lang">en</string>
+
+</resources>

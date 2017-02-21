@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_grey"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <dotc.android.happybuy.uibase.component.HBToolbar
+            android:id="@+id/id_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            android:layout_alignParentTop="true" />
+
+        <LinearLayout
+            android:id="@+id/layout_pass_mgr"
+            style="@style/setting_cell_layout"
+            android:visibility="gone">
+
+            <ImageView
+                style="@style/setting_cell_image"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                style="@style/setting_cell_text"
+                android:text="@string/pass_mgr" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_invite_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/setting_cell_title"
+                android:text="@string/promotion_code" />
+
+            <LinearLayout
+                android:id="@+id/llSettingsInviteFriend"
+                style="@style/setting_cell_layout"
+                android:background="@drawable/white_list_selector">
+
+                <ImageView
+                    style="@style/setting_cell_image"
+                    android:src="@drawable/ic_setting_invite_friends" />
+
+                <TextView
+                    style="@style/setting_cell_text"
+                    android:text="@string/invite_friends_win_coins" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/divider" />
+
+            <LinearLayout
+                android:id="@+id/llSettingsEnterCode"
+                style="@style/setting_cell_layout"
+                android:background="@drawable/white_list_selector"
+                android:visibility="visible">
+
+                <ImageView
+                    style="@style/setting_cell_image"
+                    android:src="@drawable/ic_setting_invite_code" />
+
+                <TextView
+                    style="@style/setting_cell_text"
+                    android:text="@string/enter_your_promotion_code" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/text_general"
+            style="@style/setting_cell_title"
+            android:text="@string/general" />
+
+        <LinearLayout
+            android:id="@+id/layout_agreement"
+            style="@style/setting_cell_layout"
+            android:background="@drawable/white_list_selector">
+
+            <ImageView
+                style="@style/setting_cell_image"
+                android:src="@drawable/ic_setting_agreement" />
+
+            <TextView
+                style="@style/setting_cell_text"
+                android:text="@string/agreement" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/layout_about"
+            style="@style/setting_cell_layout"
+            android:background="@drawable/white_list_selector"
+            android:visibility="gone">
+
+            <ImageView
+                style="@style/setting_cell_image"
+                android:src="@drawable/ic_setting_about" />
+
+            <TextView
+                style="@style/setting_cell_text"
+                android:text="@string/about" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider" />
+
+        <LinearLayout
+            android:id="@+id/layout_language"
+            style="@style/setting_cell_layout"
+            android:background="@drawable/white_list_selector"
+            android:visibility="visible">
+
+            <ImageView
+                style="@style/setting_cell_image"
+                android:src="@drawable/ic_setting_language" />
+
+            <TextView
+                style="@style/setting_cell_text"
+                android:text="@string/activity_language" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/selector_big_red_button"
+        android:text="@string/user_exit"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+</RelativeLayout>

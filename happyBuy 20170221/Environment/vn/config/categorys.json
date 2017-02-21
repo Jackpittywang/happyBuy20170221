@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "4",
+      "name": "Apple Products",
+      "name_other": "Apple Products",
+      "icon": "http://cdn.avazu.net/images/201609/061/5314eba0f1e80d35ab6e3705d5f168ca_46x46.png"
+    },
+    {
+      "id": "5",
+      "name": "Smartphones/Tablets",
+      "name_other": "Smartphones/Tablets",
+      "icon": "http://cdn.gogobuy.info/images/201609/103/2517fc1c71f706d9aa0efcca18e3af47_46x46.png"
+    },
+    {
+      "id": "2",
+      "name": "Prepaid phone cards",
+      "name_other": "Prepaid phone cards",
+      "icon": "http://cdn.avazu.net/images/201609/061/ab21e0beb3d33afcaaac0adabea8374f_46x46.png"
+    },
+    {
+      "id": "3",
+      "name": "Home Electronics",
+      "name_other": "Home Electronics",
+      "icon": "http://cdn.avazu.net/images/201609/061/eab3740de207ac7214149f255a010469_46x46.png"
+    },
+    {
+      "id": "1",
+      "name": "Digital products",
+      "name_other": "Digital products",
+      "icon": "http://cdn.avazu.net/images/201609/061/322bc2b5a88a0b5c4d63539c274101aa_46x46.png"
+    }
+  ]
+}

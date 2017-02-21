@@ -1,0 +1,340 @@
+{
+  "list": [
+    {
+      "id": "41",
+      "name": "Viettel",
+      "items": [
+        {
+          "id": "233",
+          "name": "viettel10000",
+          "price": "10000.00",
+          "coin_num": "10",
+          "cp_product_id": ""
+        },
+        {
+          "id": "247",
+          "name": "viettel20000",
+          "price": "20000.00",
+          "coin_num": "20",
+          "cp_product_id": ""
+        },
+        {
+          "id": "248",
+          "name": "viettel50000",
+          "price": "50000.00",
+          "coin_num": "50",
+          "cp_product_id": ""
+        },
+        {
+          "id": "250",
+          "name": "viettel1000000",
+          "price": "100000.00",
+          "coin_num": "100",
+          "cp_product_id": ""
+        },
+        {
+          "id": "252",
+          "name": "viettel2000000",
+          "price": "200000.00",
+          "coin_num": "200",
+          "cp_product_id": ""
+        },
+        {
+          "id": "254",
+          "name": "viettel5000000",
+          "price": "500000.00",
+          "coin_num": "500",
+          "cp_product_id": ""
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "MOBIFONE",
+      "items": [
+        {
+          "id": "235",
+          "name": "Mobifone10000",
+          "price": "10000.00",
+          "coin_num": "10",
+          "cp_product_id": ""
+        },
+        {
+          "id": "267",
+          "name": "Mobifone20000",
+          "price": "20000.00",
+          "coin_num": "20",
+          "cp_product_id": ""
+        },
+        {
+          "id": "269",
+          "name": "Mobifone50000",
+          "price": "50000.00",
+          "coin_num": "50",
+          "cp_product_id": ""
+        },
+        {
+          "id": "271",
+          "name": "Mobifone100000",
+          "price": "100000.00",
+          "coin_num": "100",
+          "cp_product_id": ""
+        },
+        {
+          "id": "273",
+          "name": "Mobifone200000",
+          "price": "200000.00",
+          "coin_num": "200",
+          "cp_product_id": ""
+        },
+        {
+          "id": "275",
+          "name": "Mobifone500000",
+          "price": "500000.00",
+          "coin_num": "500",
+          "cp_product_id": ""
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Vinaphone",
+      "items": [
+        {
+          "id": "234",
+          "name": "Vinafone10000",
+          "price": "10000.00",
+          "coin_num": "10",
+          "cp_product_id": ""
+        },
+        {
+          "id": "257",
+          "name": "Vinafone20000",
+          "price": "20000.00",
+          "coin_num": "20",
+          "cp_product_id": ""
+        },
+        {
+          "id": "259",
+          "name": "Vinafone50000",
+          "price": "50000.00",
+          "coin_num": "50",
+          "cp_product_id": ""
+        },
+        {
+          "id": "261",
+          "name": "Vinafone100000",
+          "price": "100000.00",
+          "coin_num": "100",
+          "cp_product_id": ""
+        },
+        {
+          "id": "263",
+          "name": "Vinafone200000",
+          "price": "200000.00",
+          "coin_num": "200",
+          "cp_product_id": ""
+        },
+        {
+          "id": "265",
+          "name": "Vinafone500000",
+          "price": "500000.00",
+          "coin_num": "500",
+          "cp_product_id": ""
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "VTC",
+      "items": [
+        {
+          "id": "236",
+          "name": "Vtc10000",
+          "price": "10000.00",
+          "coin_num": "10",
+          "cp_product_id": ""
+        },
+        {
+          "id": "277",
+          "name": "Vtc20000",
+          "price": "20000.00",
+          "coin_num": "20",
+          "cp_product_id": ""
+        },
+        {
+          "id": "279",
+          "name": "Vtc50000",
+          "price": "50000.00",
+          "coin_num": "50",
+          "cp_product_id": ""
+        },
+        {
+          "id": "281",
+          "name": "Vtc100000",
+          "price": "100000.00",
+          "coin_num": "100",
+          "cp_product_id": ""
+        },
+        {
+          "id": "283",
+          "name": "Vtc200000",
+          "price": "200000.00",
+          "coin_num": "200",
+          "cp_product_id": ""
+        },
+        {
+          "id": "286",
+          "name": "Vtc500000",
+          "price": "500000.00",
+          "coin_num": "500",
+          "cp_product_id": ""
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "HOPE",
+      "items": [
+        {
+          "id": "237",
+          "name": "Hope10000",
+          "price": "10000.00",
+          "coin_num": "10",
+          "cp_product_id": ""
+        },
+        {
+          "id": "288",
+          "name": "Hope20000",
+          "price": "20000.00",
+          "coin_num": "20",
+          "cp_product_id": ""
+        },
+        {
+          "id": "289",
+          "name": "Hope50000",
+          "price": "50000.00",
+          "coin_num": "50",
+          "cp_product_id": ""
+        },
+        {
+          "id": "290",
+          "name": "Hope100000",
+          "price": "100000.00",
+          "coin_num": "100",
+          "cp_product_id": ""
+        },
+        {
+          "id": "291",
+          "name": "Hope200000",
+          "price": "200000.00",
+          "coin_num": "200",
+          "cp_product_id": ""
+        },
+        {
+          "id": "292",
+          "name": "Hope500000",
+          "price": "500000.00",
+          "coin_num": "500",
+          "cp_product_id": ""
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "GP-VN",
+      "items": [
+        {
+          "id": "293",
+          "name": "GP50000",
+          "price": "50000.00",
+          "coin_num": "50",
+          "cp_product_id": "coin_50"
+        },
+        {
+          "id": "295",
+          "name": "GP100000",
+          "price": "100000.00",
+          "coin_num": "100",
+          "cp_product_id": "coin_100"
+        },
+        {
+          "id": "296",
+          "name": "GP200000",
+          "price": "200000.00",
+          "coin_num": "200",
+          "cp_product_id": "coin_200"
+        },
+        {
+          "id": "297",
+          "name": "GP300000",
+          "price": "300000.00",
+          "coin_num": "300",
+          "cp_product_id": "coin_1003"
+        },
+        {
+          "id": "299",
+          "name": "GP500000",
+          "price": "500000.00",
+          "coin_num": "500",
+          "cp_product_id": "coin_500"
+        },
+        {
+          "id": "300",
+          "name": "GP1000000",
+          "price": "1000000.00",
+          "coin_num": "1000",
+          "cp_product_id": "coin_1000"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "VIETNAM_SMS",
+      "items": [
+        {
+          "id": "232",
+          "name": "\u8d8a\u5357\u77ed\u4fe15000",
+          "price": "5000.00",
+          "coin_num": "5",
+          "cp_product_id": ""
+        },
+        {
+          "id": "242",
+          "name": "\u8d8a\u5357\u77ed\u4fe110000",
+          "price": "10000.00",
+          "coin_num": "10",
+          "cp_product_id": ""
+        },
+        {
+          "id": "243",
+          "name": "\u8d8a\u5357\u77ed\u4fe115000",
+          "price": "15000.00",
+          "coin_num": "15",
+          "cp_product_id": ""
+        },
+        {
+          "id": "244",
+          "name": "\u8d8a\u5357\u77ed\u4fe120000",
+          "price": "20000.00",
+          "coin_num": "20",
+          "cp_product_id": ""
+        },
+        {
+          "id": "245",
+          "name": "\u8d8a\u5357\u77ed\u4fe130000",
+          "price": "30000.00",
+          "coin_num": "30",
+          "cp_product_id": ""
+        },
+        {
+          "id": "246",
+          "name": "\u8d8a\u5357\u77ed\u4fe150000",
+          "price": "50000.00",
+          "coin_num": "50",
+          "cp_product_id": ""
+        }
+      ]
+    }
+  ]
+}

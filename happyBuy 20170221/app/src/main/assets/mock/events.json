@@ -1,0 +1,40 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": {
+    "list": [
+      {
+        "product_id": "17",
+        "product_item_id": "329",
+        "product_name": "iPhone 6S Plus 64G",
+        "product_image": "http://cdn.avazu.net/images/201605/089/693225ff0dc0637ad6eb2e8d081dd7d3_830x831.png",
+        "period": "2",
+        "awardTime": "10"
+      },
+      {
+        "product_id": "3",
+        "product_item_id": "1015",
+        "product_name": "iPad Air 2",
+        "product_image": "http://cdn.avazu.net/images/201605/060/c6f037cc8b3dd0cb2a2809701440b92e_781x823.png",
+        "period": "9",
+        "awardTime": "10"
+      },
+      {
+        "product_id": "8",
+        "product_item_id": "142",
+        "product_name": "Samsung Galaxy S7 edge",
+        "product_image": "http://cdn.avazu.net/images/201605/022/e5ffc8899ecd618f2077ff412396e813_850x850.png",
+        "period": "4",
+        "awardTime": "10"
+      },
+      {
+        "product_id": "5",
+        "product_item_id": "82",
+        "product_name": "Samsung Galaxy Note 5 ",
+        "product_image": "http://cdn.avazu.net/images/201605/087/dbaeca77b4864033af93bebfd11559e6_766x796.png",
+        "period": "1470120829",
+        "awardTime": "10"
+      }
+    ]
+  }
+}

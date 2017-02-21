@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="choose_picture_from">
+        <item>@string/take_photo</item>
+        <item>@string/ortake_gallery</item>
+    </string-array>
+    <string-array name="user_center_tab">
+        <item>@string/all_in</item>
+        <item>@string/winning_record</item>
+        <item>@string/share_record</item>
+    </string-array>
+    <string-array name="share_platforms">
+        <item>@string/line</item>
+        <item>@string/facebook</item>
+        <item>@string/messenger</item>
+        <item>@string/sms</item>
+        <item>@string/mail</item>
+    </string-array>
+</resources>

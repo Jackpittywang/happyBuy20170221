@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_awarding_nowin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/layout_nowin_top_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:visibility="invisible"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/winner_this_round"
+            />
+        <TextView
+            android:id="@+id/textview_nowin_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:textColor="#fffff600"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="@dimen/awarding_image_width"
+        android:layout_height="@dimen/awarding_image_height"
+        android:layout_centerInParent="true"
+        />
+
+    <dotc.android.happybuy.modules.awarding.widget.LightFocusLayout
+        android:id="@+id/layout_nowin_light_focus"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:background="@drawable/ic_highlight"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/transaction_successful_continue_see_the_order"
+            />
+    </dotc.android.happybuy.modules.awarding.widget.LightFocusLayout>
+    
+    <ImageView
+        android:id="@+id/imageview_nowin_sunshine"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="34dp"
+        android:src="@drawable/ic_anim_sunshine"
+        android:visibility="invisible"
+        />
+    
+    <LinearLayout
+        android:id="@+id/layout_nowin_bottom_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_nowin_light_focus"
+        android:layout_marginBottom="10dp"
+        android:visibility="invisible"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/not_be_sad"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/next_winner_for_you"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

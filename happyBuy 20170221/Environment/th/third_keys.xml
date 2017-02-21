@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="billing_id">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjhkls7D2GcWXWjwup2Erbbaf9XYwL03YKXg02JSJZicr5cTc7w1bsqfc2HLSCeH5F0l2IyU6dwWxTpVsEa+QPZE0TGTux80Fuzred0qpb9UyprmO2P6Fiyrpw5i+MhFbAdHTVZ6NxNvggkRAAQnnAtxb9D4VncClGLeIaLxrXZYX10XDqfQSVn6ju38CsYRE1NoEBymvZL23skXb/UsY5BuEKGoDEJVMOjo+mQuSDJhN6NEj287dEfp5/H3QYZrNoyu+OKRJhyINZD6L3z+jG7z3vPLMNogqqiVXBjx4Gb2J0CKAzGmnkhTGC3NzK0pq5Tvmpkv9h7rRNeBGT4xu6wIDAQAB</string>
+    <string name="facebook_app_id">1808809279347871</string>
+    <string name="bugly_app_key_dev">900026347</string>
+    <string name="mta_android_app_key_dev">ASW68UQ23SNI</string>
+</resources>

@@ -1,0 +1,213 @@
+apply plugin: 'com.android.application'
+apply plugin: 'AndResGuard'
+
+andResGuard {
+    mappingFile = null
+    use7zip = true
+    useSign = true
+    keepRoot = false
+    // add <yourpackagename>.R.drawable.icon into whitelist.
+    // because the launcher will get the icon with his name
+    whiteList = [
+            "R.mipmap.ic_launcher",
+            "R.drawable.ic_white_notification",
+            "R.string.app_name",
+            "R.array.*_language",
+            "R.string.*_symbol",
+            "R.string.*_default_lang",
+            //https://docs.fabric.io/android/crashlytics/build-tools.html
+            "R.anim.blue*",
+            "R.drawable.blue*",
+            "R.layout.blue*",
+            "R.layout.activity_pay_ui",
+            "R.id.tv_loading",
+            "R.id.pb_loading",
+            "R.id.et_*",
+            "R.id.Bluep_*",
+            "R.id.pay*",
+            "R.id.tipIv",
+            "R.id.rl_*",
+            "R.id.wb_content",
+            "R.id.tv_error",
+            "R.id.btn_back",
+            "R.id.btn_complete",
+            "R.id.tv_payment",
+            "R.id.Wv_ad",
+            "R.id.rg_pay_channel",
+            "R.id.rbtn_*",
+            "R.id.tv_tips",
+            "R.id.headerLogo",
+            "R.id.txtView_*",
+            "R.id.linearLayout1",
+            "R.id.scrollView1",
+            "R.id.imageView*",
+            "R.id.btn_dcb_*",
+            "R.id.textView*",
+            "R.id.tv_offline*",
+            "R.id.btn_offline*",
+            "R.id.iv_bluepay_logo",
+            "R.id.btn_bluepay*",
+            "R.id.pb_send_code",
+            "R.id.linear*",
+
+            "R.color.common_google*",
+            "R.color.common_plus*",
+
+            "R.drawable.com_facebook*",
+            "R.drawable.common_ic_googleplayservices",
+            "R.drawable.common_google*",
+            "R.drawable.common_plus*",
+            "R.drawable.messenger*",
+            "R.drawable.updatesdk*",
+
+            "R.layout.com_facebook*",
+            "R.layout.messenger*",
+            "R.layout.updatesdk*",
+
+            "R.string.com_facebook*",
+            "R.string.common_google*",
+            "R.string.common*",
+            "R.string.messenger*",
+            "R.string.updatesdk*",
+            "R.string.google*",
+            "R.string.firebase*",
+            "R.string.facebook*",
+            "R.string.default_web_client_id",
+            "R.string.ga_trackingId",
+            "R.string.gcm*"
+    ]
+    compressFilePattern = [
+            "*.png",
+            "*.jpg",
+            "*.jpeg",
+            "*.gif",
+            "resources.arsc"
+    ]
+    sevenzip {
+        artifact = 'com.tencent.mm:SevenZip:1.1.10'
+//        path = "/usr/local/bin/7za"
+//        path = "/bin/zip"
+    }
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    lintOptions {
+        abortOnError false
+        disable 'MissingTranslation'
+    }
+
+    signingConfigs {
+        releaseSignConfig {
+            storeFile file('./happybuy.jks')
+            keyAlias 'happybuy'
+            keyPassword "happybuy"
+            storePassword "happybuy"
+        }
+        debugSignConfig {
+            storeFile file('./happybuy.jks')
+            keyAlias 'happybuy'
+            keyPassword "happybuy"
+            storePassword "happybuy"
+        }
+    }
+
+    defaultConfig {
+        applicationId "vn.android.gogobuy"
+//        applicationId "com.example.gamesample"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 3
+        versionName "1.0.${versionCode}"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.releaseSignConfig
+        }
+        debug {
+            minifyEnabled true
+            shrinkResources true
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debugSignConfig
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    productFlavors {
+        gp {
+            manifestPlaceholders = [COUNTRY: "vn", CHANNEL: "gp", TID: "0",FB_APP_ID:"330289170669965"]
+        }
+        battery {
+            manifestPlaceholders = [COUNTRY: "vn", CHANNEL: "battery", TID: "494",FB_APP_ID:"330289170669965"]
+        }
+        tapfk {
+            manifestPlaceholders = [COUNTRY: "vn", CHANNEL: "tapfk", TID: "499",FB_APP_ID:"330289170669965"]
+        }
+        fk {
+            manifestPlaceholders = [COUNTRY: "vn", CHANNEL: "fk", TID: "498",FB_APP_ID:"330289170669965"]
+        }
+        wifi {
+            manifestPlaceholders = [COUNTRY: "vn", CHANNEL: "wifi", TID: "497",FB_APP_ID:"330289170669965"]
+        }
+        booster {
+            manifestPlaceholders = [COUNTRY: "vn", CHANNEL: "booster", TID: "496",FB_APP_ID:"330289170669965"]
+        }
+        supo {
+            manifestPlaceholders = [COUNTRY: "vn", CHANNEL: "supo", TID: "495",FB_APP_ID:"330289170669965"]
+        }
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile project(':pulltorefresh-library')
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.google.firebase:firebase-messaging:9.0.0'
+    compile 'com.google.android.gms:play-services-gcm:9.0.0'
+    compile 'com.google.android.gms:play-services-plus:9.0.0'
+    compile 'com.google.android.gms:play-services-ads:9.0.0'
+    compile 'com.google.android.gms:play-services-identity:9.0.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.16.1'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.squareup.okio:okio:1.9.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.github.bumptech.glide:okhttp3-integration:1.4.0@aar'
+    compile 'com.commit451:PhotoView:1.2.4'
+    compile 'com.tencent.bugly:crashreport:latest.release'
+    compile project(':bluepay')
+    compile project(':analyticssdk-release')
+    compile files('libs/BluePay_3.7.3.1102_pro.jar')
+    compile project(':libautolog_20160902c')
+    compile 'com.appsflyer:af-android-sdk:4.6.0@aar'
+    //以下是广告接入相关aar和aar的依赖
+
+    //导量 （依赖universal-image-loader）
+    compile project(':updatesdk-library-release-v1.0.1000.0909-r10864')
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    //清理球 （依赖adlibrary）
+//    compile project(':boostball-library-release')
+//    //快充 (依赖cardview-v7,common-library)
+//    compile project(':fastcharge-release-1.6.8')
+//    compile 'com.android.support:cardview-v7:23.1.1'
+//    //Cover (依赖cover-res dotnewsres-release)
+//    compile project(':maxlibrary-release')
+//    compile project(':dotnewsres-release')
+//    //
+//    compile project(':common-library-release')
+//    //广告
+//    compile project(':adlibrary-release')
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,137 @@
+package dotc.android.happybuy.ui.adapter;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
+
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Set;
+
+import dotc.android.happybuy.GlobalContext;
+import dotc.android.happybuy.R;
+import dotc.android.happybuy.http.HttpProtocol;
+import dotc.android.happybuy.http.Network;
+import dotc.android.happybuy.http.result.PojoCoupons;
+import dotc.android.happybuy.http.result.PojoCouponsItem;
+import dotc.android.happybuy.http.result.PojoShowItem;
+import dotc.android.happybuy.log.HBLog;
+import dotc.android.happybuy.util.DateUtil;
+
+/**
+ * Created by wangzhiyuan on 2016/7/19.
+ */
+public class AvailableRedBagGrideListAdpter extends BaseAdapter {
+    private Context mContext;
+    private List<PojoCoupons> mlist = new ArrayList<>();
+    Set<Integer> checkPostions;
+    private int mHaveSelect=0;
+    public static final String TAG = "AvailableRedBagListAdpter";
+
+    private class ViewHolder {
+        private ImageView redBagImageView;
+        private TextView nameTextView;
+        private TextView avaliableTimeTextView;
+        private TextView redTypeTextView;
+        private TextView usageRule;
+        private ImageView checkBox;
+    }
+
+    public AvailableRedBagGrideListAdpter(Context context) {
+        mContext = context;
+    }
+
+    public void clearData() {
+        mlist.clear();
+    }
+
+    public void addData(List<PojoCoupons> list) {
+        for (PojoCoupons item : list) {
+            mlist.add(item);
+        }
+    }
+    public void updateSelect(int position){
+        if(mHaveSelect==position){
+            mHaveSelect=-1;
+        }else {
+            mHaveSelect=position;
+        }
+        notifyDataSetChanged();
+    }
+
+  /*  public void setPosition(int position){
+        if(checkPostions.contains(position)){
+            checkPostions.remove(position);
+        } else {
+            checkPostions.add(position);
+        }
+        notifyDataSetChanged();
+    }*/
+
+    @Override
+    public int getCount() {
+        return mlist.size();
+    }
+
+    @Override
+    public PojoCoupons getItem(int position) {
+        return mlist.get(position);
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return 0;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        ViewHolder holder;
+        final PojoCoupons pojoCoupons = mlist.get(position);
+        // 如果缓存convertView为空，则需要创建View
+        if (convertView == null) {
+            holder = new ViewHolder();
+            convertView = LayoutInflater.from(mContext).inflate(R.layout.item_gride_list_red_bag, null);
+            holder.redBagImageView = (ImageView) convertView.findViewById(R.id.iv_red_bag);
+            holder.checkBox = (ImageView) convertView.findViewById(R.id.checkbox);
+            holder.nameTextView = (TextView) convertView.findViewById(R.id.tv_name);
+            holder.usageRule = (TextView) convertView.findViewById(R.id.tv_usage_rule);
+            holder.avaliableTimeTextView = (TextView) convertView.findViewById(R.id.tv_avaliable_time);
+            holder.redTypeTextView = (TextView) convertView.findViewById(R.id.tv_red_type);
+            convertView.setTag(holder);
+        } else {
+            holder = (ViewHolder) convertView.getTag();
+        }
+        holder.nameTextView.setText(pojoCoupons.name);
+        holder.redTypeTextView.setText(pojoCoupons.desc);
+        holder.usageRule.setText(pojoCoupons.use_min_amount+"-"+pojoCoupons.amount+"");
+//        holder.usageRule.setText();
+//       long ss= 1470643950;
+//        long days=DateUtil.time2interval(System.currentTimeMillis(),ss*1000);
+        long days=DateUtil.time2interval(System.currentTimeMillis(),Long.valueOf(pojoCoupons.end_time)*1000);
+        if(days>=0){
+            String day=String.valueOf(days);
+            holder.avaliableTimeTextView.setText(mContext.getString(R.string.over_time_date,day));
+        }
+
+        if(position == mHaveSelect){
+            holder.checkBox.setVisibility(View.VISIBLE);
+        } else {
+            holder.checkBox.setVisibility(View.GONE);
+        }
+        return convertView;
+    }
+
+
+
+
+}

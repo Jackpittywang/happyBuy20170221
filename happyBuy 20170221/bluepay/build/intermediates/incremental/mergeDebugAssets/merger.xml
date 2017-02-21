@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\happyBuy 20170221\bluepay\src\main\assets"><file name="BluePay.ref" path="E:\happyBuy 20170221\bluepay\src\main\assets\BluePay.ref"/></source><source path="E:\happyBuy 20170221\bluepay\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\happyBuy 20170221\bluepay\src\debug\assets"/></dataSet></merger>

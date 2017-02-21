@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <dotc.android.happybuy.uibase.component.HBToolbar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_alignParentTop="true"
+        />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="28dp">
+            <RelativeLayout
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/ic_phone"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp" />
+                    <EditText
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="16sp"
+                        android:textColor="#333333"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/et_phone_number"
+                        android:background="@null"
+                        android:inputType="number"
+                        android:hint="@string/user_phone_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/iv_clean_phonenumber"
+                android:src="@drawable/ic_clean_number"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp" />
+
+        </LinearLayout>
+        <View
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="#ebe6e6"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/ic_verification"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp" />
+                    <EditText
+                        android:textColorHint="#b3b3b3"
+                        android:textSize="16sp"
+                        android:textColor="#333333"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/et_verification"
+                        android:background="@null"
+                        android:hint="@string/verification_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:id="@+id/tv_get_verification"
+                android:background="@drawable/bg_gray_color"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:text="@string/get_verification_code"
+                android:textSize="12sp"
+                android:textColor="@color/standard_font_light"
+                android:layout_width="120dp"
+                android:layout_height="30dp" />
+
+        </LinearLayout>
+        <View
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="#ebe6e6"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_login_for_phonr_tips"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:enabled="false"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/login_for_phone"
+            android:layout_marginTop="20dp"
+            android:text="@string/login_for_phone"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/selector_big_red_button"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_gravity="center_horizontal"/>
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/tv_login_for_tourist"
+            android:textColor="@color/standard_red_normal"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/bg_white_color"
+            android:text="@string/login_for_visitor"
+            />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <ImageView
+            android:id="@+id/img_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="100dp"
+            android:src="@drawable/facebook_prass"/>
+
+        <ImageView
+            android:layout_marginTop="56dp"
+            android:id="@+id/img_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="39.5dp"
+            android:src="@drawable/icon_twitter"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:layout_marginTop="56dp"
+            android:id="@+id/img_googleplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="100.5dp"
+            android:src="@drawable/googleplus_prass"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

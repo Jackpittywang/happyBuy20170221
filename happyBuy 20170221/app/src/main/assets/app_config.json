@@ -1,0 +1,200 @@
+﻿{
+    "version": "201701101530",
+    "coins": 1,
+    "segment_id": "0",
+    "ui": {
+        "login": {
+            "page_style": 0
+        }
+    },
+    "topup": {
+        "tips": {
+            "en": "After successful top up, coins will be transferred to your account. You can check the balance in your personal setting.",
+            "th": "หลังจาการเติมเงินสำเร็จ เหรียญจะถูกโอนไปยังบัญชีของคุณ คุณสามารถเช็คจำนวนเหรียญคงเหลือได้ที่หน้าบัญชี"
+        },
+        "event_url": "http://api.gogobuy.info/{lang}/recharge_instructions.php"
+    },
+    "share": {
+        "facebook": {
+            "link": "https://play.google.com/store/apps/details?id=go.android.gogobuy",
+            "title": {
+                "en": "It's true! You can win an iPhone with just 1Baht!",
+                "th": "เพียง1บาทก็เป็นเจ้าของIphoneได้"
+            },
+            "content": {
+                "en": "It's true! You can win an iPhone with just 1Baht! This is amazing! New users can get free coins. Don't forget to put my invitation code:  $invite_code$ .",
+                "th": "เพียง1บาทก็เป็นเจ้าของIphoneได้ มันดีมาก ลูกค้าใหม่สามารถรับเหรียญฟรีได้ อย่าลืมใส่โค้ดชวนเพื่อนตามนี้นะ:  $invite_code$ "
+            },
+            "icon": "https://lh3.googleusercontent.com/EQ0Iog0_foItxZnpYiBT01AcB6wTUtaThz0SDz1roZkXB91XrUPiqWNwIysFY7tdgMk=w300-rw"
+        },
+        "line": {
+            "link": "https://play.google.com/store/apps/details?id=go.android.gogobuy",
+            "title": {
+                "en": "It's true! You can win an iPhone with just 1Baht!",
+                "th": "เพียง1บาทก็เป็นเจ้าของIphoneได้"
+            },
+            "content": {
+                "en": "It's true! You can win an iPhone with just 1Baht! This is amazing! New users can get free coins. Don't forget to put my invitation code:  $invite_code$ .",
+                "th": "เพียง1บาทก็เป็นเจ้าของIphoneได้ มันดีมาก ลูกค้าใหม่สามารถรับเหรียญฟรีได้ อย่าลืมใส่โค้ดชวนเพื่อนตามนี้นะ:  $invite_code$ "
+            },
+            "icon": "https://lh3.googleusercontent.com/EQ0Iog0_foItxZnpYiBT01AcB6wTUtaThz0SDz1roZkXB91XrUPiqWNwIysFY7tdgMk=w300-rw"
+        },
+        "other": {
+            "link": "https://play.google.com/store/apps/details?id=go.android.gogobuy",
+            "title": {
+                "en": "It's true! You can win an iPhone with just 1Baht!",
+                "th": "เพียง1บาทก็เป็นเจ้าของIphoneได้"
+            },
+            "content": {
+                "en": "It's true! You can win an iPhone with just 1Baht! This is amazing! New users can get free coins. Don't forget to put my invitation code:  $invite_code$ .",
+                "th": "เพียง1บาทก็เป็นเจ้าของIphoneได้ มันดีมาก ลูกค้าใหม่สามารถรับเหรียญฟรีได้ อย่าลืมใส่โค้ดชวนเพื่อนตามนี้นะ:  $invite_code$ "
+            },
+            "icon": "https://lh3.googleusercontent.com/EQ0Iog0_foItxZnpYiBT01AcB6wTUtaThz0SDz1roZkXB91XrUPiqWNwIysFY7tdgMk=w300-rw"
+        }
+    },
+    "notify": {
+        "long_noopen_app": {
+            "enable": true,
+            "interval": "2|4|6|8",
+            "title": {
+                "en": "New Product from Gogobuy has arrived",
+                "th": "สินจากใหม่จากgogobuyมาเเล้ว"
+            },
+            "content": {
+                "en": "iPhone7 Plus is waiting for you",
+                "th": "iPhone7 Plusกำลังรอคุณมาเป็นเจ้าของ"
+            },
+            "click_action": ""
+        },
+        "long_topup": {
+            "enable": true,
+            "interval": "1|3|5|7",
+            "title": {
+                "en": "gogobuy gives you 199coins for free!",
+                "th": "gogobuyแจกฟรี199เหรียญ"
+            },
+            "content": {
+                "en": "First time Top-up, get 199coins for free",
+                "th": "เติมเงินครั้งเเรก gogobuyแจกฟรี199เหรียญ"
+            },
+            "click_action": "onebuy://recharge",
+            "link": ""
+        }
+    },
+    "rate_app": {
+        "enable": true,
+        "title": {
+            "en": "Review can make you even more lucky!",
+            "th": "รีวิวจะทำให้คุณโชคดีขึ้น"
+        },
+        "content": {
+            "en": "99.9% of users win more after giving review! Go and give Gogobuy 5stars NOW!",
+            "th": "99.9%ของผู้ใช้ชนะมากขึ้นหลังจากการรีวิว รีบไปให้gogobuy5ดาวกันเถอะ"
+        },
+        "click_action": "",
+        "link": "",
+        "top_img_url": "",
+        "bottom_img_url": "",
+        "max_alert": 3,
+        "after_buy_times": 1
+    },
+    "update": {
+        "version_code": 17,
+        "version_name": "1.2.18",
+        "title": {
+            "en": "New Version is here!",
+            "th": "เวอร์ชั่นใหม่มาเเล้ว!"
+        },
+        "message": {
+            "en": "",
+            "th": ""
+        },
+        "forceupdate": false,
+        "download_url": "",
+        "gp_link": "https://play.google.com/store/apps/details?id=go.android.gogobuy",
+        "file_size": "2913586",
+        "file_md5": "4f143d0d216a72db30802e090688a796",
+        "notify_times_day_max": 1
+    },
+    "url": {
+        "invite_win_coins_detail": "http://api.gogobuy.info/h5/{lang}/faq.html"
+    },
+    "home_active": {
+        "portal_button": [
+            {
+                "click_url": "onebuy://recharge",
+                "name": {
+                    "en": "Top up",
+                    "th": "เติมเงิน"
+                },
+                "pic_url": "http://cdn.gogobuy.info/images/201701/103/eca2ac8d055aaa3f3b4271fa99c68fa8_88x88.png"
+            },
+            {
+                "click_url": "onebuy://h5?title=Activities&url=http%3a%2f%2fapi.gogobuy.info%2fh5%2fen%2factive.html",
+                "name": {
+                    "en": "Activities",
+                    "th": "กิจกรรม"
+                },
+                "pic_url": "http://cdn.gogobuy.info/images/201701/103/dfffa9452ba8b07de8176b1723e953d7_88x88.png"
+            },
+            {
+                "click_url": "onebuy://latestTimeline",
+                "name": {
+                    "en": "Winners",
+                    "th": "ผู้ชนะ"
+                },
+                "pic_url": "http://cdn.gogobuy.info/images/201701/103/5d9a24a22feb410c3def2ea0797a0f0d_88x88.png"
+            },
+            {
+                "click_url": "http://api.gogobuy.info/{lang}/help_center.php",
+                "name": {
+                    "en": "Help",
+                    "th": "ช่วยเหลือ"
+                },
+                "pic_url": "http://cdn.gogobuy.info/images/201701/103/46f1c3d143ea8ff9e43ddd89f8c2fd24_88x88.png"
+            }
+        ],
+        "portal_banner": [
+            {
+                "click_url": "onebuy://detail?product_id=42",
+                "pic_url": "http://cdn.gogobuy.info/images/201701/103/cd8d80dfd38de23ba9b897b5b2cf951a_336x140.png"
+            },
+            {
+                "click_url": "onebuy://detail?product_id=192",
+                "pic_url": "http://cdn.gogobuy.info/images/201701/103/374e979ad8dd6fd14fb1ba3f936c4f7e_336x140.png"
+            },
+            {
+                "click_url": "onebuy://tag?id=112&name=NEW CUSTOMER lUCKY AREA",
+                "pic_url": "http://cdn.gogobuy.info/images/201701/103/31682e8bc367cd2faf42332f2148882a_336x140.png"
+            },
+            {
+                "click_url": "onebuy://tag?id=113&name=2017 NEW PRODUCTS",
+                "pic_url": "http://cdn.gogobuy.info/images/201701/103/26271682fbfcc90a00d7c116cb359170_336x140.png"
+            }
+        ],
+        "banner_width": 336,
+        "banner_height": 140
+    },
+    "guess_you_like": [
+        {
+            "product_img": "http://cdn.gogobuy.info/images/201610/103/3c7dcf1ad7537e1c40ce772f3e71ba13_326x350.png",
+            "product_id": "42"
+        },
+        {
+            "product_img": "http://cdn.gogobuy.info/images/201609/103/8859754f568b6498503b91948bb003c8_412x283.png",
+            "product_id": "25"
+        },
+        {
+            "product_img": "http://cdn.gogobuy.info/images/201701/103/a4c0d9db09d8caf8ba8623d6fb8c3127_516x257.png",
+            "product_id": "192"
+        }
+    ],
+    "prize_share_info": {
+        "user_input_text_max": 2000,
+        "user_photos_max": 4
+    },
+    "first_buy_guide": {
+        "enable": true,
+        "allow_close": false
+    }
+}

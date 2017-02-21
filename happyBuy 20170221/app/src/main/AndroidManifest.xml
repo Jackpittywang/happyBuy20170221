@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="dotc.android.happybuy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.launcher2.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher2.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.launcher3.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher3.permission.WRITE_SETTINGS" />
+    <application
+        android:name=".modules.HBApplication"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/hb_app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <!-- channel start -->
+        <meta-data
+            android:name="country"
+            android:value="${COUNTRY}" />
+        <meta-data
+            android:name="hb_channel"
+            android:value="${CHANNEL}"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="InstallChannel"
+            android:value="${CHANNEL}"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="hb_tid"
+            android:value="${TID}"
+            tools:replace="android:value" />
+
+        <activity
+            android:name=".modules.splash.SplashActivity"
+            android:hardwareAccelerated="true"
+            android:exported="true"
+            android:label="@string/hb_app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".modules.main.MainTabActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".modules.main.update.UpdateActivity"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <activity
+            android:name=".modules.search.SearchActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".modules.setting.guide.GuideActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.detail.GoodsDetailActivity"
+            android:label="@string/activity_goods_detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.CategoryActivity"
+            android:label="@string/activity_goods_category"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.boutique.BoutiqueActivity"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.awarding.AwardingActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".modules.prize.AwardProductActivity"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.recharge.RechargeActivity"
+            android:label="@string/activity_recharge" />
+        <activity
+            android:name=".modules.recharge.TopupActivity"
+            android:label="@string/activity_recharge"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.activity.LINEPayResultActivity"
+            android:label=""
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="best.bluepay.asia"
+                    android:scheme="gogobuypay" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".modules.pay.PayActivity"
+            android:label="@string/activity_pay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.setting.SettingActivity"
+            android:label="@string/activity_setting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.setting.about.AboutActivity"
+            android:label="@string/activity_about"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.setting.language.LanguageActivity"
+            android:label="@string/activity_language"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.setting.invite.EnterInviteCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.setting.invite.InviteWinCoinsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.show.ViewSharePhotosActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.show.ShowDetailActivity"
+            android:label="@string/activity_show_detail"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".modules.show.SharePrizeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".modules.show.ShowSampleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.BlackStatusBar" />
+        <activity
+            android:name=".modules.show.ShowListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.show.PhotoFolderChooseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.show.PhotoChooseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.address.AddressSelectActivity"
+            android:label="@string/activity_address_select"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.address.AddressCenterActivity"
+            android:label="@string/activity_address_center"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.address.AddressEditActivity"
+            android:label="@string/activity_address_edit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.address.AddressEditActivityVn"
+            android:label="@string/activity_address_edit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.setting.feedback.FeedBackActivity"
+            android:label="@string/activity_feed_back"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".ui.activity.WebActivity"
+            android:label=""
+            android:process=":tools"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.active.H5ActiveActivity"
+            android:label=""
+            android:process=":tools"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.login.LoginActivity"
+            android:label="login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.schema.SchemaActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="onebuy" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.UserCenterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.userprofile.UserProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.message.MessageActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name=".ui.activity.MyProfileActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".modules.coupon.RedPacketActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modules.push.PushHandleActivity"
+            android:label=""
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="click.action.my_coupon" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="click.action.awarding" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="click.action.awarded" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--android:windowSoftInputMode="adjustResize|adjustPan"-->
+        <activity
+            android:name=".modules.home.NewUserGuideActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".dialog.RateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".modules.pay.TransactionSuccessfulActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".modules.login.BindActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".modules.active.NoTopUpActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".modules.active.NoOpenActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".modules.active.UnAvaliablePushActivity"
+            android:screenOrientation="portrait" />
+
+        <!--android:theme="@style/Theme.AppCompat.Dialog"-->
+        <!-- [START gcm_receiver] -->
+        <!--
+        <service
+            android:name=".push.firebase.MyInstanceIDListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".push.firebase.MyFcmListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+ -->
+        <service
+            android:name="dotc.android.happybuy.push.PushTimerService"
+            android:exported="false"></service>
+        <service
+            android:name=".modules.push.AlarmService"
+            android:exported="true"></service>
+        <service
+            android:name=".modules.push.RechargeAlarmService"
+            android:exported="true"></service>
+
+        <service android:name=".modules.show.func.ClearPhotoCacheFolderService" />
+
+        <service android:name=".modules.coupon.service.NotifyAvailableCouponService" />
+
+        <!--  mta start -->
+        <meta-data
+            android:name="TA_APPKEY"
+            android:value="@string/mta_android_app_key_dev" />
+
+        <!--  mta end -->
+
+        <!-- [END gcm_receiver] -->
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- -->
+        <activity
+            android:name="com.bluepay.ui.PaymentActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <data
+                    android:host="asia.bluepay.pay"
+                    android:port="999"
+                    android:scheme="bluepay" />
+            </intent-filter>
+        </activity>
+
+
+        <!--FACEBOOK START -->
+        <!-- To use FB Login or Share, the FacebookActivity is required. -->
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider${FB_APP_ID}"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationName"
+            android:value="@string/hb_app_name" />
+        <!--FACEBOOK END -->
+
+        <!--appsflyer配置-->
+        <receiver
+            android:name="com.appsflyer.SingleInstallBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

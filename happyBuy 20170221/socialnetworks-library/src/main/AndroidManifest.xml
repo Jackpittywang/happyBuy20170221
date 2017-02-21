@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mobi.dotc.socialnetworks">
+
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application android:allowBackup="true">
+        <!-- START [Facebook Specific] -->
+        <!-- To use FB Login or Share, the FacebookActivity is required. -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:excludeFromRecents="true"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!--
+             App ID should be in strings.xml.
+             The App ID is required here.
+        -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationName"
+            android:value="@string/app_name" />
+
+        <!--
+             FacebookContentProvider is required to share links, images, or videos.
+             The App ID must be appended at the end of the authorities value.
+        -->
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider542283199267055"
+            android:exported="true" />
+        <!-- END [Facebook Specific] -->
+
+        <!-- START Google+ Sign-In -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!-- END Google+ Sign-In -->
+
+    </application>
+
+</manifest>

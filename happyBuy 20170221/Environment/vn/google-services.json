@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "283859675383",
+    "project_id": "gogobuy-vietnam"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283859675383:android:43a8aaa4c3effce3",
+        "android_client_info": {
+          "package_name": "vn.android.gogobuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283859675383-uspit6r8emke8pv34f8i3th2pv0u88in.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.android.gogobuy",
+            "certificate_hash": "D97C464382A905868A2D2EBC159B8E48DA7FD3A9"
+          }
+        },
+        {
+          "client_id": "283859675383-e6ua0ebvte39ts88kdvg6s9hrsti9t2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv9JbCoSxtphKEgnCEIMaqYFbZDIrM0qQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

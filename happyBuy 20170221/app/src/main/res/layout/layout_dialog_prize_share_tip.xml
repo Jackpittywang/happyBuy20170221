@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="420dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/ivPrizeShareTip"
+            android:layout_width="320dp"
+            android:layout_height="220dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pic_share_prize_tip" />
+
+        <TextView
+            android:id="@+id/btnPrizeShareTipStartShare"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/white_list_selector"
+            android:gravity="center"
+            android:text="@string/start_sharing"
+            android:textColor="@color/prize_show_name"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvPrizeShareTipContent1"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivPrizeShareTip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:text="@string/share_prize_tip_dialog_content_1"
+            android:textColor="@color/colors_33"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPrizeShareTipContent1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:text="@string/share_prize_tip_dialog_content_2"
+            android:textColor="@color/colors_33"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="261dp"
+            android:layout_height="48dp"
+            android:visibility="gone"
+            android:layout_above="@id/btnPrizeShareTipStartShare"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shape_prize_share_tip_content_mask" />
+
+        <LinearLayout
+            android:id="@+id/llPrizeShareTipCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btnPrizeShareTipStartShare"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivPrizeShareTipCheck"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_grey_unchecked" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:text="@string/no_longer_prompt"
+                android:textColor="@color/black_light"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_above="@id/btnPrizeShareTipStartShare"
+            android:background="@color/verification_gray" />
+    </RelativeLayout>
+</RelativeLayout>

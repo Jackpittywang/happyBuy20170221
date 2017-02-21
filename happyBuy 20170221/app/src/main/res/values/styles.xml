@@ -1,0 +1,304 @@
+<resources>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+
+    <style name="AppTranslucent" parent="@android:style/Theme.Translucent">
+        <item name="android:progressBarStyle">@style/HB.ProgressBar</item>
+        <item name="android:progressBarStyleSmall">@style/HB.ProgressBar</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 屏蔽MaterialDesign的button阴影 -->
+        <item name="buttonStyle">@android:style/Widget.Button</item>
+    </style>
+
+    <style name="AppTheme.BlackStatusBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="HBAppBaseTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <item name="android:windowAnimationStyle">@style/windowAnim</item>
+        <item name="android:progressBarStyle">@style/HB.ProgressBar</item>
+        <item name="android:progressBarStyleSmall">@style/HB.ProgressBar</item>
+    </style>
+
+    <style name="windowAnim" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_back_out</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_back_in</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_to_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_to_out</item>
+    </style>
+
+    <style name="HB.ProgressBar" parent="android:Widget.ProgressBar">
+        <item name="android:minWidth">40dp</item>
+        <item name="android:maxWidth">40dp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:maxHeight">40dp</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:indeterminateDrawable">@drawable/android_progress_holo</item>
+
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:indeterminateDrawable">@drawable/android_progress_holo</item>
+    </style>
+
+    <style name="prize_share_dialog" parent="Theme.AppCompat.Dialog">
+
+    </style>
+
+    <style name="hb_custom_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="setting_cell_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="setting_cell_image">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="setting_cell_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colors_33</item>
+    </style>
+
+    <style name="setting_cell_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textColor">@color/mid_grey</item>
+    </style>
+
+    <style name="goods_detal_cell_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="goods_detal_cell_image">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="goods_detal_cell_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="main_tab_text">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/main_tab_item_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">-1dp</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="main_header_cell_layout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="main_header_cell_image">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="main_header_cell_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#f29827</item>
+    </style>
+
+    <style name="award_cell_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="award_cell_left_layer">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="award_cell_left_top_fill">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">21dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <style name="award_cell_left_fill">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">0px</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <style name="award_cell_left_circle">
+        <item name="android:layout_width">8dp</item>
+        <item name="android:layout_height">8dp</item>
+        <item name="android:background">@drawable/grey_circle_selector</item>
+    </style>
+
+    <style name="award_cell_subject">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+    </style>
+
+    <style name="award_cell_time">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black_light</item>
+    </style>
+
+    <style name="profile_cell_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="profile_cell_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+    </style>
+
+    <style name="profile_cell_arrow">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="recharge_channel_cell_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="recharge_channel_cell_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+    </style>
+
+    <style name="recharge_channel_checkbox">
+        <item name="android:layout_width">22dp</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:checked">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/cb_selecter_normal</item>
+    </style>
+
+    <style name="CustomSelecterCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selecter</item>
+    </style>
+
+    <style name="CustomZanCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_zan</item>
+    </style>
+
+    <style name="CustomTabLayout" parent="TabLayout">
+        <item name="tabIndicatorColor">@color/transparent</item>
+        <item name="tabBackground">@color/transparent</item>
+        <item name="tabSelectedTextColor">#ff333333</item>
+        <item name="tabIndicatorHeight">2dp</item>
+    </style>
+
+    <style name="TabLayout" parent="android:Widget">
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabMaxWidth">264dp</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="tabBackground">@color/white</item>
+        <item name="tabTextSize">14sp</item>
+        <item name="tabTextColor">#ffaaaaaa</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+    </style>
+
+    <style name="RechargeDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+</resources>

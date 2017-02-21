@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <dotc.android.happybuy.uibase.component.HBToolbar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/layout_truemoney"
+            style="@style/recharge_channel_cell_layout"
+            android:visibility="visible">
+
+            <TextView
+                style="@style/recharge_channel_cell_text"
+                />
+
+            <ImageView
+                android:id="@+id/checkbox_truemoney"
+                style="@style/recharge_channel_checkbox" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/layout_12call"
+            style="@style/recharge_channel_cell_layout"
+            android:visibility="visible">
+
+            <TextView
+                style="@style/recharge_channel_cell_text"
+                />
+
+            <ImageView
+                android:id="@+id/checkbox_12call"
+                style="@style/recharge_channel_checkbox" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/layout_happy"
+            style="@style/recharge_channel_cell_layout"
+            android:visibility="visible">
+
+            <TextView
+                style="@style/recharge_channel_cell_text"
+                 />
+
+            <ImageView
+                android:id="@+id/checkbox_happy"
+                style="@style/recharge_channel_checkbox" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/button_ok"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/red_corner_fill_selector"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

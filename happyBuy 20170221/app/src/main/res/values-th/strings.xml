@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <!--<string name="app_name">LoginDemo-ShareSDK</string>-->
+    <string name="action_settings">การตั้งค่า</string>
+    <string name="activity_recharge">เติมเงิน</string>
+    <string name="activity_goods_detail">รายละเอียด</string>
+    <string name="activity_goods_category">หมวดหมู่</string>
+    <string name="activity_goods_confirm">ยืนยัน</string>
+    <string name="activity_pay">การชำระเงิน</string>
+    <string name="activity_profile">ประวัติ</string>
+    <string name="activity_setting">การตั้งค่า</string>
+    <string name="activity_pass_mgr">รหัสผ่าน</string>
+    <string name="activity_agreement">ข้อตกลงในการให้บริการ</string>
+    <string name="activity_about">เกี่ยวกับ</string>
+    <string name="activity_show">ทามไลน์ผู้ชนะ</string>
+    <string name="activity_show_detail">แสดงรายละเอียด</string>
+    <string name="activity_share_prize">ช่วงเวลาสำหรับผู้ชนะ</string>
+    <string name="activity_address_select">เลือก</string>
+    <string name="activity_address_center">ที่อยู่สำหรับการจัดส่ง</string>
+    <string name="activity_address_edit">แก้ไขที่อยู่</string>
+    <string name="activity_recharge_instruction">วิธีการเติมเงิน</string>
+    <string name="choice_recharge_amount">เลือกจำนวน</string>
+    <string name="choice_pay_channel">เลือกวิธีชำระเงิน</string>
+    <string name="choice_part_person_time">เลือกจำนวนครั้งที่ต้องการเข้าร่วม</string>
+    <string name="your_particate">ประวัติการเข้าร่วมของคุณ</string>
+    <string name="recharge_now">เติมเงิน</string>
+    <string name="pay_now">ซื้อ</string>
+    <string name="pay_amount">ทั้งหมด</string>
+    <string name="times_total">ท้ังหมด  </string>
+    <string name="times_retain">คงเหลือ</string>
+    <string name="account_balance">ยอดคงเหลือบัญชี</string>
+    <string name="part_now">เข้าร่วมเดี๋ยวนี้</string>
+    <string name="part">เข้าร่วม</string>
+    <string name="part_add">เพิ่มเติม</string>
+    <string name="paypal">Paypal</string>
+    <string name="google_pay">Google pay</string>
+    <string name="pass_mgr">รหัสผ่าน</string>
+    <string name="app_version_check">ตรวจสอบการอัปเดต</string>
+    <string name="agreement">ข้อตกลงในการให้บริการ</string>
+    <string name="about">เกี่ยวกับ</string>
+    <string name="user_exit">ออกจากระบบ</string>
+    <string name="lucky_number">หมายเลขโชคดี: </string>
+    <string name="part_try_hint">เข้าร่วมกับเราเพื่อชนะสิ่งนี้?</string>
+    <string name="particate_number">หมายเลขโชคดีของคุณ: </string>
+    <string name="label_congratulate">ขอแสดงความยินดี คุณคือผู้ชนะ! </string>
+    <string name="label_obtain">ชนะ </string>
+    <string name="product_not_found">ไม่มีผลลัพธ์</string>
+    <string name="net_request_error">ล้มเหลวในการเชื่อมต่อไปยังเครือข่าย</string>
+    <string name="net_request_retry">แตะเพื่อลองใหม่</string>
+    <string name="image_text_detail">แสดงรายละเอียด</string>
+    <string name="timeline_share">ช่วงเวลาสำหรับผู้ชนะ</string>
+    <string name="history_look">ภาพตัวอย่าง</string>
+    <string name="calc_detail"> วิธีการคำนวณ Lucky Number</string>
+    <string name="award_date">วันครบกำหนด: </string>
+    <string name="award_count_down">นับถอยหลัง: </string>
+    <string name="label_period_">รอบ: %s</string>
+    <string name="period_part">จำนวนผู้เข้าร่วมตอนนี้: </string>
+    <string name="all_part_recorder">การซื้อทั้งหมด</string>
+    <string name="part_detail">ดูรายละเอียด</string>
+    <string name="product_state_doing">เปิด</string>
+    <string name="product_state_done">ปิด</string>
+    <string name="product_state_share">แชร์</string>
+    <string name="label_recharge">เติมเงิน</string>
+    <string name="label_winner">ผู้ชนะ</string>
+    <string name="label_show">แสดง</string>
+    <string name="label_support">ช่วยเหลือ</string>
+    <string name="last_award">ผู้ชนะ</string>
+    <string name="help_center">ศูนย์ให้ความช่วยเหลือ</string>
+    <string name="main_tab_all">สินค้าทั้งหมด</string>
+    <string name="main_tab_tens">สินค้า10 บาท</string>
+    <string name="click_retry">คลิกเพื่อลองใหม่</string>
+    <string name="loadmore_empty">ไม่มีผลิตภัณฑ์เพิ่มเติม</string>
+    <string name="times">ครั้ง</string>
+    <string name="win_prize">ขอแสดงความยินดี คุณคือผู้ชนะ!</string>
+    <string name="lable_period_name">รอบ: %s</string>
+    <string name="lable_winner">ผู้ชนะ: %s</string>
+    <string name="lable_period_times">จำนวนผู้เข้าร่วมตอนนี้: %s ครั้ง</string>
+    <string name="lable_win_number">หมายเลขผู้ชนะในรอบนี้: %s</string>
+    <string name="list_empty_hint">ไม่มีการบันทึก</string>
+    <string name="list_winner_empty_hint">คุณยังไม่ได้ชนะรางวัลใด ๆ</string>
+    <string name="computing">กำลังคำนวณ...</string>
+    <string name="commiting">กำลังส่ง...</string>
+    <string name="loading">กำลังโหลด...</string>
+    <string name="load_more">โหลดเพิ่มเติม</string>
+    <string name="data_empty">ไม่มีข้อมูล</string>
+    <string name="load_failed">ล้มเหลวในการโหลดข้อมูล</string>
+    <string name="network_exception">เครือข่ายล้มเหลว</string>
+    <string name="commiting_failed">การอัปโหลดล้มเหลว</string>
+    <string name="commiting_success">ส่งสำเร็จ</string>
+    <string name="ok">ตกลง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="view">ดู</string>
+    <string name="modify_nickname">แก้ไขชื่อล็อกอิน</string>
+    <string name="nickname_empty_hint">โปรดเข้าสู่การล็อกอินของคุณ</string>
+    <string name="portrait">รูปภาพ</string>
+    <string name="nickname">ชื่อล็อกอิน</string>
+    <string name="address_manager">จัดการที่อยู่ของคุณ</string>
+    <string name="portrait_commit_success">บันทึกรูปภาพเรียบร้อยแล้ว</string>
+    <string name="portrait_commit_fail">การอัปโหลดล้มเหลว</string>
+    <string name="product_state">สถานะคำสั่งซื้อ: </string>
+    <string name="product_track">ติดตามการสั่งซื้อของคุณ: </string>
+    <string name="award_congratulation">ขอแสดงความยินดี คุณคือผู้ชนะ!</string>
+    <string name="award_address_select">โปรดเลือกที่อยู่การจัดส่งสินค้า</string>
+    <string name="award_address_selected">เลือกที่อยู่การจัดส่งสินค้าแล้ว</string>
+    <string name="award_share_select">แชร์บนทามไลน์</string>
+    <string name="award_share_selected">แชร์</string>
+    <string name="order_logistics_shippe">พร้อมที่จะจัดส่ง</string>
+    <string name="order_logistics_shipped">จัดส่งแล้ว</string>
+    <string name="order_logistics_received">ส่งมอบสินค้าแล้ว</string>
+    <string name="order_logistics_close">การส่งมอบสินค้าเสร็จสมบูรณ์</string>
+    <string name="award_share_look">ดูรายละเอียด</string>
+    <string name="address_empty">แก้ไขที่อยู่การจัดส่งสินค้าของคุณ</string>
+    <string name="create_address">เพิ่มที่อยู่</string>
+    <string name="lable_coin">%d เหรียญ</string>
+    <string name="coin">เหรียญ</string>
+    <string name="order_creating">กำลังส่งคำสั่งซื้อนี้...</string>
+    <string name="order_paying">กำลังดำเนินการชำระเงินของคุณ...</string>
+    <string name="query_order_result">โปรดรอคำยืนยันการสั่งซื้อของคุณ...</string>
+    <string name="billing_env_fail">การสั่งซื้อล้มเหลว โปรดตรวจสอบเครือข่ายของคุณ</string>
+    <string name="order_pay_done">คำขอร้องของคุณสำเร็จ</string>
+    <string name="recharge_result">เติมเงิน</string>
+    <string name="buy_fail_money_not_enough">ยอดคงเหลือไม่เพียงพอ</string>
+    <string name="buy_fail_times_not_enough">ผู้เข้าร่วมไม่เพียงพอ</string>
+    <string name="order_pay_fail">การสั่งซื้อล้มเหลว</string>
+    <string name="product_timeout">หมดเวลาของรอบนี้</string>
+    <string name="buy_fail_period_out">มีการปิดรอบนี้แล้ว ไปยังรอบล่าสุด?</string>
+    <string name="recharge_success">มีการส่งคำสั่งซื้อนี้แล้ว</string>
+    <string name="take_photo">ถ่ายรูป</string>
+    <string name="ortake_gallery">แกลเลอรี</string>
+    <string name="no_available_app">ไม่รองรับ!</string>
+    <!--  add from CN-->
+    <string name="user_center">บัญชีของคุณ</string>
+    <string name="recharge">เติมเงิน</string>
+    <string name="myorder">สินค้าของฉัน</string>
+    <string name="all_in">คำสั่งซื้อ</string>
+    <string name="on_going">เปิด</string>
+    <string name="already_announced">ปิด</string>
+    <string name="winning_record">รางวัล</string>
+    <string name="share_record">แชร์</string>
+    <string name="login_select_app">ลูกค้าใหม่รับ5เหรียญฟรี</string>
+    <string name="my_join_period">รอบ: </string>
+    <string name="my_join_times">ซื้อ: </string>
+    <string name="my_join_winner">ผู้ชนะ: </string>
+    <string name="my_join_winner_times">ครั้ง</string>
+    <string name="period">รอบ: </string>
+    <string name="about_version">เวอร์ชัน: </string>
+    <string name="about_copyright">ลิขสิทธิ์: </string>
+    <string name="about_phone">ติดต่อหมายเลขโทรศัพท์: </string>
+    <string name="about_email">อีเมลผู้ติดต่อ: </string>
+    <string name="login">ล็อกอิน</string>
+    <string name="logining">กำลังโหลด...</string>
+    <string name="net_not_connected">หมดเวลา</string>
+    <string name="cancel_authorize">ยกเลิกการให้อนุญาต</string>
+    <string name="error_authorize">การให้อนุญาตผิดพลาด</string>
+    <string name="failed_authorize">การให้อนุญาตล้มเหลว: </string>
+    <string name="failed_connected_server">การเชื่อมต่อไปยังเครือข่ายล้มเหลว โปรดลองอีกครั้งภายหลัง</string>
+    <string name="failed_get_authrize">การให้อนุญาตล้มเหลว โปรดลองอีกครั้ง</string>
+    <string name="show_inform">รายงาน</string>
+    <string name="show_focus">ติดตาม</string>
+    <string name="show_reword_prd">รางวัล: </string>
+    <string name="show_people_num">ทั้งหมด: </string>
+    <string name="show_lucky_num">หมายเลขที่โชคดี: </string>
+    <string name="show_publish_time">เวลาเผยแพร่: </string>
+    <string name="show_check_detail">ดูรายละเอียด: </string>
+    <string name="show_detail_comment_hint">บอกอะไรบางอย่าง: </string>
+    <string name="show_detail_comment_publish">เผยแพร่</string>
+    <string name="show_save_pic_result_success">บันทึกแล้ว</string>
+    <string name="show_save_pic_result_fail">การบันทึกล้มเหลว</string>
+    <string name="share_edit_hint">แชร์ความรู้สึกของคุณที่นี่</string>
+    <string name="share_title">แชร์บนทามไลน์</string>
+    <string name="share_btn_text">ฉันต้องการแชร์</string>
+    <string name="share_dialog_album">อัลบั้ม</string>
+    <string name="share_dialog_camera">ถ่ายรุป</string>
+    <string name="share_dialog_cancel">ยกเลิก</string>
+    <string name="share_introduce_num">รอบ %s (จัดส่งแล้ว)</string>
+    <string name="share_toast_put_pics">โปรดเพิ่มรูปถ่ายของคุณ</string>
+    <string name="share_no_sdcard">โปรดยืนยันการ์ด SD ของคุณ</string>
+    <string name="share_success">การแชร์สำเร็จ</string>
+    <string name="share_fail">การแชร์ล้มเหลว</string>
+    <string name="share_tips_already">แชร์แล้ว</string>
+    <string name="share_tips_notyet">ยังไม่ได้แชร์</string>
+    <string name="share_add_pic_tips">โปรดแชร์รางวัลของคุณรวมถึงรูปถ่าย</string>
+    <string name="address_add">เพิ่มที่อยู่ใหม่</string>
+    <string name="address_save">บันทึก</string>
+    <string name="address_edit_name">ชื่อจริง</string>
+    <string name="address_edit_num">หมายเลขโทรศัพท์</string>
+    <string name="address_edit_address">ที่อยู่</string>
+    <string name="address_center">แก้ไขที่อยู่</string>
+    <string name="address_edit">เพิ่มที่อยู่ใหม่</string>
+    <string name="address_edit_btn">แก้ไข</string>
+    <string name="address_done_btn">เสร็จ</string>
+    <string name="address_all_choice">เลือกทั้งหมด</string>
+    <string name="address_choice_num">%s ที่เลือก </string>
+    <string name="address_delete">ลบ</string>
+    <string name="address_edit_condition_mobile_tips">หมายเลขโทรศัพท์ไม่ถูกต้อง โปรดตรวจสอบอีกครั้ง</string>
+    <string name="address_edit_condition_name_tips">โปรดใส่ชื่อของคุณ</string>
+    <string name="address_edit_condition_address_tips">โปรดใส่ที่อยู่ของคุณ</string>
+    <string name="double_click_back">แตะอีกครั้งเพื่อออก</string>
+    <!-- 2016 0505 add -->
+    <string name="nickname_long_hint">ไม่เกิน 20 อักขระ</string>
+    <string name="recharge_channel_sms">SMS</string>
+    <string name="recharge_channel_card">บัตรเงินสด</string>
+    <string name="recharge_channel_bank">ธนาคารออนไลน์</string>
+    <string name="recharge_channel_line">ไลน์เพย์</string>
+    <!-- 2016 0511 add-->
+    <string name="error_login_google_service_update_tips">โปรดอัปเดตเป็นเวอร์ชันล่าสุด</string>
+    <string name="address_num_limit_tips">โปรดลบที่อยู่ที่ไม่ได้ใช้</string>
+    <!-- 2016 0513 add-->
+    <string name="activity_feed_back">ติดต่อเรา</string>
+    <string name="cs_feedback_advice">ข้อเสนอ</string>
+    <string name="cs_feedback_product_prize">รายงานปัญหา</string>
+    <string name="cs_feedback_edit_tips">โปรดใส่ข้อมูลอย่างละเอียด เพื่อความช่วยเหลือที่มีประสิทธิภาพมากยิ่งขึ้น</string>
+    <string name="cs_feedback_edit_email">อีเมล</string>
+    <string name="cs_feedback_btn_ok">ยืนยัน</string>
+    <string name="cs_feedback_format_content_tips">โปรดใส่ความคิดเห็นของคุณที่นี่</string>
+    <string name="cs_feedback_format_email_tips">รูปแบบอีเมลที่ไม่ถูกต้อง</string>
+    <string name="cs_feedback_upload_scuess">ระบบได้รับความคิดเห็นของคุณเเล้ว</string>
+    <string name="order_exception">มีบางอย่างผิดปกติกับการสั่งซื้อของคุณ</string>
+    <string name="signout_dialog_yes">แน่นอน</string>
+    <string name="signout_dialog_cancel">ยกเลิก</string>
+    <string name="signout_dialog_tips">คุณแน่ใจหรือไม่ที่จะออกจากระบบ?</string>
+    <!-- 2016 0516 add-->
+    <string name="categorys">หมวดหมู่</string>
+    <string name="input_search_empty">ใส่สิ่งที่คุณต้องการค้นหาที่นี่</string>
+    <string name="search_result_empty">ไม่พบผลลัพธ์</string>
+    <string name="hotword_recommend">สินค้าแนะนำ</string>
+    <string name="activity_language">ภาษา</string>
+    <string name="total_part_times">ทั้งหมด: </string>
+    <string name="retain_part_times">คงเหลือ: </string>
+    <!-- 2016 0524 add-->
+    <string name="bluepay_recharge_result_hint">ส่งเรียบร้อยแล้วโปรดตรวจสอบในภายหลัง</string>
+    <!--2015 0524 add-->
+    <string name="good_detail_join_next_btn"> เข้าร่วมเดี่ยวนี้</string>
+    <string name="good_detail_join_next_tips">ต้องการที่จะลองอีกรอบหรือไม่?</string>
+    <string name="good_detail_join_auto_fill_tips">ต้องเข้าร่วมอย่างน้อย 10 ครั้ง ระบบจะทำการเปลี่ยนแปลงโดยอัตโนมัติ</string>
+    <string name="good_detail_join_input_max"> สามารถซื้อได้สูงสุด %s ครั้ง/ต่อสินค้า. </string>
+    <!--2015 0527 add -->
+    <string name="select_use_mode">โปรดเลือกวิธีเติมเงิน</string>
+    <string name="selected_use_mode">คุณได้เลือกแล้ว: </string>
+    <string name="use_mode_coin">ฉันต้องการแลกเป็นเหรียญ GoGoBuy %s เหรียญ </string>
+    <string name="use_mode_phone">ฉันต้องการเติมเงินเข้าโทรศัพท์</string>
+    <string name="select_lable">เลือก: </string>
+    <string name="recharge_to_phone">เติมเงินเข้าโทรศัพท์ของคุณ</string>
+    <string name="recharge_to_coin">แลกเหรียญ GoGoBuy</string>
+    <string name="select_recharge_phone">กรุณาเลือกหมายเลขโทรศัพท์ของคุณ</string>
+    <string name="recharge_phone_input_hint">กรุณาใส่หมายเลขโทรศัพท์ที่ต้องการเติมเงิน</string>
+    <string name="wait_product_distributing">รอการจัดส่งสินค้า</string>
+    <string name="selected_recharge_to_phone"> เลือก: เติมเงินเข้าโทรศัพท์มือถือ</string>
+    <string name="selected_recharge_to_coin">เลือก: การแลกเหรียญ</string>
+    <string name="recharge_to_phone_success">เติมเงินเข้าโทรศัพท์มือถือสำเร็จ</string>
+    <string name="recharge_to_phone_fail">การเติมเงินล้มเหลว</string>
+    <string name="recharge_to_phone_result">การเติมเงินหมายเลข%sสำเร็จ คุณจะได้รับเครดิตภายใน24ชั่วโมง</string>
+    <string name="recharge_to_coin_success"> การแลกเหรียญสำเร็จ</string>
+    <string name="recharge_to_coin_fail"> การแลกเหรียญล้มเหลว</string>
+    <string name="recharge_to_coin_result">การแลกเหรียญสำเร็จ คุณจะได้รับเครดิตภายใน24ชั่วโมง</string>
+    <string name="selected_recharge_phone">เลือกจำนวนที่ต้องการ</string>
+    <!--<string name="recharge_to_phone_result_fail"> ธุรกรรมล้มเหลว กรุณาคลิกเพื่อติดต่อฝ่ายบริการลูกค้า</string>
+    <string name="recharge_to_coin_result_fail">กรุณาติดต่อฝ่ายบริการลูกค้า</string>-->
+    <string name="address_province">จังหวัด</string>
+    <string name="address_district">อำเภอ</string>
+    <string name="address_postcode">รหัสไปรษณีย์</string>
+    <string name="location_province_empty_hint">เลือกจังหวัด</string>
+    <string name="location_district_empty_hint">เลือกอำเภอ</string>
+    <string name="location_postcode_empty_hint">เลือกรหัสไปรษณีย์</string>
+    <string name="award_title_hint">คุณชนะ!</string>
+    <!--2016 0615 add-->
+    <string name="order_logistics_ready_received"> กำลังจัดส่งสินค้า</string>
+    <string name="recharge_tips">กรุณาตรวจสอบให้แน่ใจว่าจำนวนเงินที่ต้องการเติมสอดคล้องกับมูลค่าของบัตรเติมเงิน หากจำนวนที่ต้องการน้อยกว่ามูลค่าของบัตรเติมเงิน คุณจะได้รับเหรียญน้อยกว่าเงินที่เสียไป หากจำนวนที่คุณต้องการมาหหว่ามูลค่าบัตรเติมเงิน จะทำให้การเติมเงินล้มเหลว </string>
+    <string name="recharge_iknow"> เข้าใจแล้ว</string>
+    <string name="order_buy_web"> เว็ปที่สั่งซื้อ: </string>
+    <string name="order_orderd_id"> รหัสการสั่งซื้อ: </string>
+    <string name="recharge_to_phone_result_fail_phonenumber_click">การเติมเงินเบอร์เข้าหมายเลข %s ล้มเหลว</string>
+    <string name="recharge_to_coin_result_fail_click">คลิ๊กเพื่อตรวจสอบ</string>
+    <string name="recharge_to_coin_result_fail_contact_customer_service">ติดต่อฝ่ายบริการลูกค้า</string>
+    <!--2016 0620 add-->
+    <string name="product_have_be_sell_out">สินค้านี้ได้ถูกขายเเล้ว หากมีข้อสงสัยกรุณาติดต่อฝ่ายบริการลูกค้า</string>
+    <!--2016 0621 add-->
+    <string name="ready_to_recharge">พร้อมเติมเงิน</string>
+    <string name="good_detail_join_input_overall">สามารถซื้อได้สูงสุด %s ครั้ง</string>
+
+    <!--2016 0719 add-->
+    <string name="avaliable_red_bag">คูปองที่ใช้ได้ (%s)</string>
+    <string name="ready_to_distribute_red_bag">คูปองที่จะได้รับ(%s)</string>
+    <string name="unavaliable_red_bag">ถูกใช้แล้ว/หมดอายุ</string>
+    <string name="red_envelope_deductible">ส่วนลดคูปอง</string>
+
+    <!--2016 0729 add-->
+    <!--<string name="remaining_balance">ยอดคงเหลือ %s เหรียญ</string>-->
+    <string name="validity">ใช้ได้อีก %s วัน</string>
+    <string name="use">ใช้</string>
+    <string name="delivery_time">เวลาที่จะทำการแจกจ่าย </string>
+    <string name="over_time">หมดอายุ</string>
+    <string name="has_been_used">ถูกใช้แล้ว</string>
+    <string name="over_time_date">เหลืออีก %s วันจะหมดอายุ</string>
+
+    <!--2016 0808 add-->
+    <string name="cut_coin">-%s เหรียญ</string>
+    <string name="remaining_balance">%s เหรียญ</string>
+
+    <!--2016 0818 add-->
+    <string name="winner_hint">ผู้ชนะคือ%s</string>
+    <string name="tab_home">หน้าแรก</string>
+    <string name="tab_classification">หมวดหมู่สินค้า</string>
+    <string name="tab_show">ผู้โชคดี</string>
+    <string name="tab_me">เกี่ยวกับฉัน</string>
+
+    <!--2016 0825 add-->
+    <string name="user_id">ชื่อผู้ใช้</string>
+    <string name="due_data">วัน/เวลาที่เข้าร่วม</string>
+    <string name="algorith_rule">วิธีคำนวณผู้โชคดี</string>
+    <!--<string name="algorith_rule">วิธีการคำนวณ Lucky Number</string>-->
+
+    <!--2016 0901 add-->
+    <string name="please_select_number">กรุณาเลือกจำนวนครั้งที่คุณต้องการจะซื้อ ยิ่งซื้อมากเท่าไหร่ ยิ่งมาโอกาสชนะมากเท่านั้นนะ!</string>
+    <string name="please_select_product">กรุณาเลือกสินค้าที่คุณสนใจ แล้วมาเริ่มเล่น GoGoBuy กันเลย!</string>
+    <string name="welcome_to_gogobuy_tips">ยินดีต้อนรับสู่ </string>
+    <string name="welcome_to_gogobuy_gogobuy_tips">GOGOBUY ！</string>
+    <string name="you_win_a_tips">คุณชนะ</string>
+    <string name="you_win_a_gift_tips">รางวัล</string>
+    <string name="coins_transferred">5 เหรียญทองได้ถูกโอนเข้าบัญชีของคุณแล้ว</string>
+    <string name="to_ur_account">ไปยังบัญชีของคุณ</string>
+    <string name="show_balance">แสดงยอดคงเหลือ</string>
+    <string name="buy_now">ซื้อเดี๋ยวนี้</string>
+    <string name="are_you_sure">คุณเเน่ใจ</string>
+    <string name="to_quit">ว่าต้องการออก?</string>
+    <!--<string name="coins_waiting">5 เหรียญทองรอคุณอยู่</string>-->
+
+    <string name="coins_for_you">กำลังรอคุณอยู่</string>
+    <string name="yes">ใช่</string>
+    <string name="no">ไม่, ขอบคุณ</string>
+    <string name="see_it_now">เปิดดูเดี๋ยวนี้</string>
+    <string name="last_round_winner">ผู้ชนะรอบที่เเล้ว</string>
+    <string name="search">ค้นหา</string>
+
+    <!--2016 0927 add-->
+    <string name="animator_coin_transferred">เหรียญได้ถูกโอนไปยังบัญชีของคุณเรียบร้อยเเล้ว</string>
+    <string name="animator_see_it_now">ซื้อเดี๋ยวนี้</string>
+    <string name="animator_registe">ลงทะเบียน</string>
+    <string name="animator_successe">สำเร็จ</string>
+    <string name="animator_coins">เหรียญ</string>
+
+    <!--2016 1010 add-->
+    <string name="dream_item">มาดูของรางวัลในฝันกันเลย</string>
+    <string name="you_are">คุณคือ</string>
+    <string name="congratulation">ขอเเสดงความยินดีด้วย</string>
+    <string name="round">รอบ</string>
+    <string name="being_query">กำลังคำนวณ</string>
+    <string name="please_wait">กรุณารอสักครู่</string>
+    <string name="winner_this_round">ผู้ชนะรอบนี้คือ</string>
+    <string name="goto_homepage">ไปที่หน้าเเรก</string>
+    <string name="not_be_sad">อย่าเสียใจไปเลย</string>
+    <string name="next_winner_for_you">ผู้ชนะคนต่อไปอาจะเป็นคุณ</string>
+    <!--2016 1014 add 越南环境用上的 不翻译-->
+    <string name="vn_address_province">State</string>
+    <string name="vn_address_district">District</string>
+    <string name="vn_address_postcode">Ward</string>
+
+    <!--2016 1020 add-->
+    <string name="vn_register_now">NEW USERS GET</string>
+    <string name="vn_for_free">ฟรี</string>
+
+    <string name="main_tab_tens_for_vn">สินค้า10 บาท</string>
+
+    <!--2016 1102 add-->
+    <string name="recharge_dialog_text" formatted="false">คุณยืนยันที่จะใช้ %s บาทเพื่อซื้อ %s เหรียญ?</string>
+    <string name="recharge_dialog_yes">ตกลง</string>
+    <string name="recharge_dialog_no">ยกเลิก</string>
+
+    <!--2016 1114 add-->
+    <string name="coupons_count">%s คูปอง </string>
+    <string name="coupons_title">คูปอง</string>
+
+    <!--2016 1130 add-->
+    <string name="user_phone_number">เบอร์โทรศัพท์</string>
+    <string name="get_verification_code">กดเพื่อรับรหัสยืนยัน</string>
+    <string name="verification_code">รหัสยืนยัน</string>
+    <string name="login_for_phone">ล็อคอินผ่านเบอร์โทรศัพท์</string>
+    <string name="login_for_visitor">ล็อคอินสำหรับบุคลทั่วไป</string>
+    <string name="login_for_third_party">ล็อคอินผ่านบัญชีอื่นๆ</string>
+    <string name="login_tips_head">เคล็ดลับ: ระบบจำทำการล็อกอินอัตโนมัติสำหรับเบอร์โทรศัพท์ที่ไม่เคยสมัครบัญชี Gogobuy เมื่อมีการลงทะเบียนหมายความว่าคุณยอมรับใน</string>
+    <string name="login_tips_end">"ข้อตกลงการใช้บริการ" ของGogobuy</string>
+    <string name="send_again">ส่งอีกครั้ง</string>
+    <string name="phone_number_empty">เบอร์โทรศัพท์ไม่สามารถว่างเปล่า</string>
+    <string name="verification_number_empty">รหัสยืนยันไม่สามารถว่างเปล่า</string>
+    <string name="verification_error">รหัสยืนยันผิดพลาด</string>
+    <string name="bind">ผูกบัญชี</string>
+    <string name="bind_tips">สำหรับบัญชีบุคคลทั่วไป เมื่อมีการยกเลิกการติดตั้งหรือเปลี่ยนเครื่องโทรศัพท์ จะไม่สามารถเรียกคืนข้อมูลได้ เพื่อความปลอดภัยของบัญชี คุณสามารถผูกบัญชีผ่านเบอร์โทรศัพท์ Facebook หรือ Google+</string>
+    <string name="switch_account">เปลี่ยนบัญชี</string>
+    <string name="have_band">บัญชีได้ถูกผูกเเล้ว</string>
+    <string name="bind_other_user">อุปกรณ์นี้ได้ถูกผูกไว้กับบัญชีอื่นเเล้ว</string>
+
+    <!-- 2016 1205 add -->
+    <string name="promotion_code">โปรโมชั่น โค้ด</string>
+    <string name="invite_friends_win_coins">ชวนเพื่อนเพื่อรับเหรียญเพิ่ม</string>
+    <string name="enter_your_promotion_code">กรุณาใส่โปรโมชั่นโค้ดของคุณ</string>
+    <string name="general">ทั่วไป</string>
+
+    <!-- 2016 1206 add -->
+    <string name="submit">ยืนยัน</string>
+    <string name="please_enter_your_invite_code">กรุณาใส่รหัสเชิญเพื่อนของคุณ</string>
+    <string name="your_invite_code_is">รหัสเชิญเพื่อนของคุณคือ:</string>
+    <string name="can_invite_friends_win_coins">เชิญเพื่อนเพื่อรับเหรียญเพิ่ม?</string>
+    <string name="click_to_check_detail">คลิ๊กเพื่อดูรายละเอียด</string>
+    <string name="already_share_n_friends">คุณเชิญเพื่อนแล้ว %1$s คน</string>
+    <string name="already_gain_n_coins">คุณได้รับเหรียญแล้ว %1$s เหรียญ</string>
+    <string name="share_to">แชร์</string>
+    <string name="do_you_love_gogobuy">คุณชอบ gogobuy ไหม?</string>
+    <string name="go_google_play_give_five_star">ไปที่ Google Play เพื่อให้gogobuy 5 ดาว</string>
+    <string name="later">ไม่ใช่ตอนนี้</string>
+    <string name="give_five_star">ให้5ดาวเดี๋ยวนี้</string>
+    <string name="copy">คัดลอก</string>
+    <string name="copy_success">คัดลอกสำเร็จ</string>
+
+    <!--  2016 1207 add  -->
+    <string name="not_install_line">แชร์ผ่านLine ล้มเหลวเนื่องจากคุณไม่ได้ติดตั้งLine</string>
+    <string name="not_install_messenger">แชร์ผ่านMessenger ล้มเหลวเนื่องจากคุณไม่ได้ติดตั้งMessenger</string>
+
+    <string name="invite_code_enter_success">การดำเนินการรหัสเชิญเพื่อนสำเร็จ เหรียญกำลังถูกโอนไปยังบัญชีของคุณ</string>
+    <string name="invite_code_enter_wrong">การดำเนินการรหัสเชิญเพื่อนล้มเหลว โปรดลองใหม่อีกครั้ง</string>
+    <string name="invite_code_enter_already">รับเหรียญสำเร็จ ไปซื้อเดี๋ยวนี้</string>
+    <string name="line">Line</string>
+    <string name="facebook">Facebook</string>
+    <string name="messenger">Messenger</string>
+    <string name="sms">sms</string>
+    <string name="mail">email</string>
+
+    <!--  2016 1208 add  -->
+    <string name="enter_invitation_code">ใส่โปรโมชั่นโค๊ด(ถ้ามี)</string>
+
+    <!--  2016 1212 add  -->
+    <string name="vitification_tries_limit">การใส่รหัสยืนยันเกินลิมิต</string>
+    <string name="invite_code_enter_wrong_in_regist">รหัสไม่ถูกต้อง คุณสามารถใส่รหัสใหม่ได้ที่หน้าเชิญเพื่อนในเมนูตั้งค่า</string>
+
+
+    <!-- 20161213 add-->
+    <string name="all_photos">รูปภาพทั้งหมด</string>
+    <string name="choose_photo">เลือกรูปภาพ</string>
+    <string name="choose_photo_folder">เลือกอัลบั้มรูปภาพ</string>
+    <string name="can_only_select_n_photos">คุณสามารถเลือกได้ %1$s  รูป</string>
+    <string name="complete">เสร็จสิ้น</string>
+    <string name="done">เสร็จสิ้น</string>
+    <string name="photo_folder_files_num">( %1$s )</string>
+    <string name="open_camera_failed">การเปิดกล้องล้มเหลว</string>
+    <!--  2016 1214 add  -->
+    <string name="you_may_also_like">สิ่งที่คุณน่าจะสนใจ</string>
+    <string name="no_available">ไม่มี</string>
+    <string name="no_select">ไม่ได้เลือก</string>
+    <string name="bet_now_totle">ทั้งหมด: %1$s เหรียญ</string>
+    <string name="user_type">สามารถใช้ได้กับสินค้าทุกชนิด</string>
+    <string name="topup_hint">หลังจาการเติมเงินสำเร็จ เหรียญจะถูกโอนไปยังบัญชีของคุณ คุณสามารถเช็คจำนวนเหรียญคงเหลือได้ที่หน้าบัญชี</string>
+
+    <!-- 2016 1215 add -->
+    <string name="view_details_with_arrow">แสดงรายละเอียด</string>
+    <string name="prize_name">รางวัล: %1$s</string>
+    <string name="award_time">จำนวนครั้ง: %1$s</string>
+
+    <!--  2016 1216 add  -->
+    <string name="choose_coupons">เลือกคูปอง</string>
+    <string name="available_coupons">คูปองที่ใช้ได้</string>
+    <string name="unavailable_coupons">คูปองที่ไม่สามารถใช้ได้</string>
+    <string name="available_coupons_tips">ไม่มีคูปองที่ใช้ได้</string>
+    <string name="unavailable_coupons_tips">ไม่มีคูปองที่ไม่สามารถใช้ได้</string>
+
+    <string name="no_longer_prompt">ไม่ต้องถามอีก</string>
+    <string name="start_sharing">เริ่มการใช้ร่วมกัน</string>
+    <string name="share_prize_input_too_long">เนื้อหายาวเกินไป ลิมิต%1$sตัวอักษร</string>
+    <string name="share_prize_input_not_empty">เนื้อหาต้องไม่ว่างเปล่า</string>
+    <string name="add_at_least_one_photo">โปรดเลือกอย่างน้อย1รูปภาพ</string>
+    <string name="win">ชนะ</string>
+
+
+    <!-- 20161219 add -->
+    <string name="good_sharing">แชร์ยอดเยี่ยม</string>
+
+    <!-- 20161222 add -->
+    <string name="lable_coin_1">(%d เหรียญ)</string>
+    <string name="main_guide_tip">เลือกสินค้าในฝันของคุณ มาลองด้วยสินค้าสุดฮอทกัน!</string>
+    <!-- 20161223 add -->
+    <string name="title_message">ข้อความ</string>
+    <string name="notify_available_coupon_title">คูปองใหม่</string>
+    <string name="notify_available_coupon_content">Gogobuyมีคูปองใหม่ให้คุณ ไปใช้กันเลย</string>
+    <string name="transaction_successful_title">การสั่งซื้อสำเร็จ</string>
+    <string name="transaction_successful_bet">เข้าร่วม</string>
+    <string name="transaction_successful_remaing">คงเหลือ</string>
+    <string name="transaction_successful_tips">ระบบจะมีการแจ้งเตือนเมื่อสิทธิ์ถูกขายหมดเเละพร้อมที่จะจับรางวัล โปรดเช็คเพื่อความเเน่ใจว่าการเเจ้งเตือนถูกเปิดไว้</string>
+    <string name="transaction_successful_continue_betting">ลุ้นโชคต่อ</string>
+    <string name="transaction_successful_continue_see_the_order">ตรวจดูออร์เดอร์</string>
+
+    <!-- 20161227 add -->
+    <string name="coupons_part">คูปอง</string>
+
+    <!-- 20161228 -->
+    <string name="share_prize_tip_dialog_content_1">อย่าลืมบรรยายความรู้สึกและเเนบรูปภาพของคุณกับสินค้า!</string>
+    <string name="share_prize_tip_dialog_content_2">ยิ่งเนื้อหาประทับใจมาก ก็ยิ่งได้เหรียญมากนะจ้ะ!!!</string>
+
+    <!-- 20170105 -->
+    <string name="coins_unit">%d เหรียญ/ครั้ง</string>
+    <string name="use_min_amount">ต้องเติมเงินอย่างน้อย %s</string>
+
+</resources>

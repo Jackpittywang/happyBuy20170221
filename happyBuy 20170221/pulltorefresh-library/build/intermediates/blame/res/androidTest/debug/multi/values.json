@@ -1,0 +1,292 @@
+[
+    {
+        "outputFile": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1831,
+                    "endColumn": 63,
+                    "endOffset": 1890
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1831,
+                        "endColumn": 63,
+                        "endOffset": 1890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1895,
+                    "endColumn": 63,
+                    "endOffset": 1954
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1895,
+                        "endColumn": 63,
+                        "endOffset": 1954
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1959,
+                    "endColumn": 54,
+                    "endOffset": 2009
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1959,
+                        "endColumn": 54,
+                        "endOffset": 2009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2014,
+                    "endColumn": 56,
+                    "endOffset": 2066
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2014,
+                        "endColumn": 56,
+                        "endOffset": 2066
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2071,
+                    "endColumn": 54,
+                    "endOffset": 2121
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2071,
+                        "endColumn": 54,
+                        "endOffset": 2121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2126,
+                    "endColumn": 49,
+                    "endOffset": 2171
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2126,
+                        "endColumn": 49,
+                        "endOffset": 2171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2176,
+                    "endColumn": 37,
+                    "endOffset": 2209
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2176,
+                        "endColumn": 37,
+                        "endOffset": 2209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2214,
+                    "endColumn": 39,
+                    "endOffset": 2249
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2214,
+                        "endColumn": 39,
+                        "endOffset": 2249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2254,
+                    "endColumn": 36,
+                    "endOffset": 2286
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 2254,
+                        "endColumn": 36,
+                        "endOffset": 2286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2291,
+                    "endColumn": 101,
+                    "endOffset": 2388
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2291,
+                        "endColumn": 101,
+                        "endOffset": 2388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2393,
+                    "endColumn": 113,
+                    "endOffset": 2502
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2393,
+                        "endColumn": 113,
+                        "endOffset": 2502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2507,
+                    "endColumn": 107,
+                    "endOffset": 2610
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2507,
+                        "endColumn": 107,
+                        "endOffset": 2610
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2615,
+                    "endColumn": 71,
+                    "endOffset": 2682
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 2615,
+                        "endColumn": 71,
+                        "endOffset": 2682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2687,
+                    "endColumn": 69,
+                    "endOffset": 2752
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 2687,
+                        "endColumn": 69,
+                        "endOffset": 2752
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2757,
+                    "endColumn": 77,
+                    "endOffset": 2830
+                },
+                "from": {
+                    "file": "E:\\happyBuy 20170221\\pulltorefresh-library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 2757,
+                        "endColumn": 77,
+                        "endOffset": 2830
+                    }
+                }
+            }
+        ]
+    }
+]

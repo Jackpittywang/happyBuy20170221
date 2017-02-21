@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('analytics-library-release-v1.0.5.1102-r12647.aar'))

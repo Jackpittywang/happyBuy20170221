@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        style="@style/award_cell_layout"
+        android:layout_height="wrap_content">
+
+        <LinearLayout style="@style/award_cell_left_layer">
+            <View style="@style/award_cell_left_top_fill" />
+            <ImageView style="@style/award_cell_left_circle" />
+            <View style="@style/award_cell_left_fill" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/award_cell_subject"
+                    android:layout_width="match_parent"
+                    android:text="@string/selected_use_mode"
+                    />
+                <TextView
+                    android:id="@+id/textview_use_date"
+                    style="@style/award_cell_time"
+                    android:text=""
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/grey_corner_fill_selector"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/colorText"
+                    android:textSize="14sp"
+                    android:text="@string/selected_recharge_to_phone"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/award_cell_layout"
+        android:layout_height="wrap_content">
+
+        <LinearLayout style="@style/award_cell_left_layer">
+            <View style="@style/award_cell_left_top_fill" />
+            <ImageView style="@style/award_cell_left_circle"
+                android:background="@drawable/red_circle_selector"
+                android:id="@+id/iv_select_phone_number" />
+            <View style="@style/award_cell_left_fill" />
+        </LinearLayout>
+        <include layout="@layout/layout_virtual_use_phone_number" />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/award_cell_layout"
+        android:layout_height="wrap_content">
+
+        <LinearLayout style="@style/award_cell_left_layer">
+            <View style="@style/award_cell_left_top_fill" />
+            <ImageView style="@style/award_cell_left_circle"
+                android:id="@+id/iv_transaction_succeed"
+                android:background="@drawable/white_circle_selector"/>
+            <View style="@style/award_cell_left_fill" />
+        </LinearLayout>
+        <include layout="@layout/layout_virtual_use_phone_distribute" />
+    </LinearLayout>
+   <!-- <LinearLayout
+        android:id="@+id/ll_received_goods"
+        style="@style/award_cell_layout"
+        android:layout_height="50dp">
+
+        <LinearLayout style="@style/award_cell_left_layer"
+            android:clickable="true">
+            <View style="@style/award_cell_left_top_fill" />
+            <ImageView style="@style/award_cell_left_circle"
+                android:background="@drawable/white_circle_selector" />
+            <View style="@style/award_cell_left_fill" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/award_cell_subject"
+            android:text="@string/order_logistics_ready_received"
+            />
+        <TextView
+            android:id="@+id/order_received_time"
+            style="@style/award_cell_time"
+            android:text="" />
+    </LinearLayout>-->
+</LinearLayout>

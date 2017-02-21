@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/topup_cell_margin"
+     >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        />
+    <TextView
+        android:id="@+id/textview_desc"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:lines="1"
+        android:text=""
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_facevalue_discount"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textview_desc"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:textSize="14sp"
+            android:text=""/>
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ff383e"
+            android:textSize="12sp"
+            android:text=""/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/imageview_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:background="@drawable/ic_topup_mask" />
+
+</RelativeLayout>

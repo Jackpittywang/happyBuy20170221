@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/standard_red_normal</color>
+    <color name="colorPrimaryDark">@color/standard_red_dark</color>
+    <color name="colorAccent">@color/standard_red_normal</color>
+    <!--新的颜色设计标准-->
+    <color name="standard_red_dark">#C43D31</color>
+    <color name="standard_red_normal">#db4437</color>
+    <color name="standard_red_light">#FF9692</color>
+    <color name="standard_blue_normal">#4990E2</color>
+    <color name="standard_blue_dark">#3B73B4</color>
+    <color name="standard_yellow_normal">#FECE00</color>
+    <color name="standard_yellow_dark">#E4B800</color>
+    <color name="standard_font_black">#333333</color>
+    <color name="standard_font_dark">#666666</color>
+    <color name="standard_font_grey">#999999</color>
+    <color name="standard_font_light">#cccccc</color>
+    <color name="standard_background_dark">#E6E6E6</color>
+    <color name="standard_background_light">#F5EBEB</color>
+    <color name="standard_background_white">#F5F3F3</color>
+    <color name="standard_pressed_color">@color/standard_red_dark</color>
+
+
+    <!--新的颜色设计标准-->
+    <color name="primary">#fb1035</color>
+    <color name="white">#ffffffff</color>
+    <color name="transparent_white">#88ffffff</color>
+    <color name="darkblue">#09679B</color>
+    <color name="orange">#fc0</color>
+    <color name="green">#27ee1d</color>
+    <color name="blue">#0000FF</color>
+    <color name="red">#fb1035</color>
+    <color name="red_light">#fc3839</color>
+    <color name="red_not_enabled">#fd8689</color>
+    <color name="red_deep">#CA2C30</color>
+    <color name="red_title">#fb1035</color>
+    <color name="black">#000000</color>
+    <color name="black_light">#999999</color>
+    <color name="me_order_selector_red">#ff383e</color>
+    <color name="black_tab_text">#282828</color>
+    <color name="transparent">#0000</color>
+    <color name="main_divider">#f6efe8</color>
+    <color name="divider">#fff6efe8</color>
+    <color name="divider_dark">#f7f7f7</color>
+    <color name="colorText">#686868</color>
+    <color name="colorTextDark">#282828</color>
+    <color name="primary_text">#fff</color>
+    <color name="secondary_text">#fff</color>
+    <color name="default_font_colors">#ff646464</color>
+    <color name="colors_33">#ff333333</color>
+    <color name="grey">#ff808080</color>
+    <color name="title_bg">#f9f4f0</color>
+    <color name="gray">#BBBBBB</color>
+    <color name="background">#f6efe8</color>
+    <color name="transparent_background">#1e000000</color>
+    <color name="white_grey">#f0f0f0</color>
+    <color name="white_gray">#fafafa</color>
+    <color name="mid_grey">#666666</color>
+    <color name="dialog_bg_color">#89ffffff</color>
+    <color name="verification_red">#fd4e49</color>
+    <color name="verification_gray">#cccccc</color>
+    <color name="link_yellow">#ffd557</color>
+    <color name="prize_show_name">#4a90e2</color>
+</resources>

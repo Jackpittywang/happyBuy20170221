@@ -1,0 +1,24 @@
+WORKSPACE=$(pwd)
+
+echo 'start build th develop environment ----------'
+rm ${WORKSPACE}/app/build.gradle
+cp ${WORKSPACE}/Environment/th/build.gradle ${WORKSPACE}/app/build.gradle
+
+rm ${WORKSPACE}/app/google-services.json
+cp ${WORKSPACE}/Environment/th/google-services.json ${WORKSPACE}/app/google-services.json
+
+rm ${WORKSPACE}/app/src/main/res/values/third_keys.xml
+cp ${WORKSPACE}/Environment/th/third_keys.xml ${WORKSPACE}/app/src/main/res/values/third_keys.xml
+
+rm -rf ${WORKSPACE}/app/src/main/assets/config
+cp -r ${WORKSPACE}/Environment/th/config ${WORKSPACE}/app/src/main/assets/config
+
+rm ${WORKSPACE}/app/src/main/java/build/Environment.java
+cp ${WORKSPACE}/Environment/th/test/debug/Environment.java ${WORKSPACE}/app/src/main/java/build/Environment.java
+
+rm ${WORKSPACE}/bluepay/src/main/assets/BluePay.ref
+cp ${WORKSPACE}/Environment/th/test/BluePay.ref ${WORKSPACE}/bluepay/src/main/assets/BluePay.ref
+echo 'end -----------------------------------------'
+
+
+

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f3f3">
+
+    <dotc.android.happybuy.uibase.component.HBToolbar
+        android:id="@+id/tbSharePrize"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tbSharePrize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etSharePrize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="left|top"
+                android:hint="@string/share_edit_hint"
+                android:inputType="textMultiLine"
+                android:maxLength="10000"
+                android:minHeight="90dp"
+                android:paddingBottom="18dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="18dp"
+                android:textColor="@color/colorTextDark"
+                android:textColorHint="@color/black_light"
+                android:textSize="16sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvSharePrize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:background="@color/white"
+                android:scrollbars="none" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#f5f3f3" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="141.5dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/ivSharePrizePic"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@mipmap/ic_launcher" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_toRightOf="@id/ivSharePrizePic"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvSharePrizeName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:lines="2"
+                        android:textColor="@color/colors_33"
+                        android:textSize="16sp"
+                        tools:text="iPhone 7 Plus 256GB Jet Black Edition" />
+
+                    <TextView
+                        android:id="@+id/tvSharePrizeDetail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="@color/black_light"
+                        android:textSize="14sp"
+                        tools:text="Round 11 (Delivered)" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnSharePrizeSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/selector_big_red_button"
+                android:enabled="true"
+                android:text="@string/share_btn_text"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <dotc.android.happybuy.ui.dialog.SharePicDialog
+        android:id="@+id/spdSharePrize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

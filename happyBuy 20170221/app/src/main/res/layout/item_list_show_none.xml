@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlShow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_list_selector"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/llShowMedal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_share_prize_medal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:singleLine="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10sp"
+            android:text="@string/good_sharing" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/circle_portrait"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="14dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/pic_circle_portrait_placeholder" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/llShowMedal"
+        android:layout_toRightOf="@id/circle_portrait"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/prize_show_name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Alexander Higgins" />
+
+        <TextView
+            android:id="@+id/tv_reword_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black_light"
+            android:textSize="12sp"
+            tools:text="Prize：iPhone 7 Plus 256GB" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circle_portrait"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:textColor="@color/colors_33"
+        android:textSize="16sp"
+        tools:text="The Idea Of God Is Not Henceforther Relevant For Everyone！The Idea Of God Is Not Henceforther Relevant, The Idea Of God Is Not Henceforther RelevantThe Idea Of God Is Not Henceforther Relevant" />
+
+    <!--<ImageView
+        android:id="@+id/iv_img_one"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:layout_below="@id/tv_comment"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/splash_screen" />-->
+
+    <TextView
+        android:id="@+id/tv_ptime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_comment"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="17dp"
+        android:singleLine="true"
+        android:textColor="@color/black_light"
+        android:textSize="14sp"
+        tools:text="Dec.07,2016 21:00" />
+
+    <RelativeLayout
+        android:id="@+id/checkbox_click_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_img_one"
+        android:layout_marginLeft="187dp"
+        android:layout_marginTop="17dp">
+
+        <CheckBox
+            android:id="@+id/cb_zan"
+            style="@style/CustomZanCheckboxTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:clickable="false" />
+
+        <TextView
+            android:id="@+id/tv_zan_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/cb_zan"
+            tools:text="24" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvShowWin"
+        android:layout_width="46dp"
+        android:layout_height="26dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/iv_img_one"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/selector_small_yellow_button"
+        android:gravity="center"
+        android:text="@string/win"
+        android:textColor="@color/white" />
+</RelativeLayout>

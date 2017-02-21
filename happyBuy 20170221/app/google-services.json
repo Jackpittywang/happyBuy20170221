@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "800785866192",
+    "firebase_url": "https://gogobuy-39bbb.firebaseio.com",
+    "project_id": "gogobuy-39bbb",
+    "storage_bucket": "gogobuy-39bbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800785866192:android:daaaa776cf8006c7",
+        "android_client_info": {
+          "package_name": "go.android.gogobuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800785866192-0oajlbu7gefspi2774nhr48kb16t35hm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "800785866192-1irrkv076vdr8op6meeaddl1hscvmraq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfXfVTh9gKU8RtsNTXNzixqiCFGGVqCDI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

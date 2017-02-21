@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="10dip"
+              android:paddingLeft="7dp"
+              android:paddingBottom="10dip"
+              android:background="@color/white"
+              android:descendantFocusability="blocksDescendants"
+                >
+
+    <RelativeLayout
+        android:layout_marginTop="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_coupon"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_red_bag"/>
+
+        <TextView
+            android:id="@+id/tv_usage_rule"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#fcf7ae"
+            android:textSize="22sp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_gravity="center"
+        android:paddingLeft="12dp"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/tv_name"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="#ff0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/tv_time"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="#ff0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:visibility="gone"
+            android:paddingTop="14dp"
+            android:singleLine="true"
+            android:layout_marginTop="5dip"
+            android:id="@+id/tv_avaliable_time"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingTop="2dp"
+            android:singleLine="true"
+            android:layout_marginTop="5dip"
+            android:id="@+id/tv_red_type"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/tv_scene"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

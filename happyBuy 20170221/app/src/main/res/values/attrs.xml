@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorProgressBar">
+        <attr name="bg_color" format="reference|color" />
+        <attr name="progress_color" format="reference|color" />
+        <attr name="start_color" format="reference|color" />
+        <attr name="transition_color" format="reference|color" />
+        <attr name="end_color" format="reference|color" />
+        <attr name="stripe_width" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="OldProgressBar">
+        <attr name="old_bg_color" format="reference|color" />
+        <attr name="old_progress_color" format="reference|color" />
+        <attr name="old_start_color" format="reference|color" />
+        <attr name="old_transition_color" format="reference|color" />
+        <attr name="old_end_color" format="reference|color" />
+        <attr name="old_stripe_width" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="IndicatorView">
+        <attr name="n_color" format="reference|color" />
+        <attr name="s_color" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable  name="roundedimageview">
+        <attr name="border_thickness" format="dimension"  />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"/>
+    </declare-styleable>
+
+    <!--TabItem-->
+    <declare-styleable name="TabItem">
+        <attr name="indicator_radius" format="integer" />
+        <attr name="activeDrawable" format="reference" />
+        <attr name="inactiveDrawable" format="reference" />
+        <attr name="active" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RepackTabLayout">
+        <attr name="tabIndicatorColor" format="color"/>
+        <attr name="tabIndicatorHeight" format="dimension"/>
+        <attr name="tabContentStart" format="dimension"/>
+
+        <attr name="tabBackground" format="reference"/>
+
+        <attr name="tabMode">
+            <enum name="scrollable" value="0"/>
+            <enum name="fixed" value="1"/>
+        </attr>
+
+        <!-- Standard gravity constant that a child supplies to its parent.
+             Defines how the child view should be positioned, on both the X and Y axes,
+             within its enclosing layout. -->
+        <attr name="tabGravity">
+            <enum name="fill" value="0"/>
+            <enum name="center" value="1"/>
+        </attr>
+
+        <attr name="tabMinWidth" format="dimension"/>
+        <attr name="tabMaxWidth" format="dimension"/>
+
+        <attr name="tabTextAppearance" format="reference"/>
+        <attr name="tabTextSize" format="dimension"/>
+        <attr name="tabTextColor" format="color"/>
+        <attr name="tabSelectedTextColor" format="color"/>
+
+        <attr name="tabPaddingStart" format="dimension"/>
+        <attr name="tabPaddingTop" format="dimension"/>
+        <attr name="tabPaddingEnd" format="dimension"/>
+        <attr name="tabPaddingBottom" format="dimension"/>
+        <attr name="tabPadding" format="dimension"/>
+    </declare-styleable>
+
+</resources>
