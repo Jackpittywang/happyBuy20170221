@@ -121,9 +121,9 @@ android {
         versionCode 17
         versionName "1.2.${versionCode}"
     }
-    dexOptions {
-        javaMaxHeapSize "4g"
-    }
+//    dexOptions {
+//        javaMaxHeapSize "4g"
+//    }
     buildTypes {
         release {
             minifyEnabled true
@@ -133,9 +133,10 @@ android {
             signingConfig signingConfigs.releaseSignConfig
         }
         debug {
-            minifyEnabled true
-            shrinkResources true
-            zipAlignEnabled true
+            debuggable true
+            minifyEnabled false
+            shrinkResources false
+            zipAlignEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.debugSignConfig
         }
@@ -149,18 +150,18 @@ android {
         gp {
             manifestPlaceholders = [COUNTRY: "th", CHANNEL: "gp", TID: "480",FB_APP_ID:"1808809279347871"]
         }
-        battery {
-            manifestPlaceholders = [COUNTRY: "th", CHANNEL: "battery", TID: "491",FB_APP_ID:"1808809279347871"]
-        }
-        tapfk {
-            manifestPlaceholders = [COUNTRY: "th", CHANNEL: "tapfk", TID: "489",FB_APP_ID:"1808809279347871"]
-        }
-        fk {
-            manifestPlaceholders = [COUNTRY: "th", CHANNEL: "fk", TID: "488",FB_APP_ID:"1808809279347871"]
-        }
-        wifi {
-            manifestPlaceholders = [COUNTRY: "th", CHANNEL: "wifi", TID: "490",FB_APP_ID:"1808809279347871"]
-        }
+//        battery {
+//            manifestPlaceholders = [COUNTRY: "th", CHANNEL: "battery", TID: "491",FB_APP_ID:"1808809279347871"]
+//        }
+//        tapfk {
+//            manifestPlaceholders = [COUNTRY: "th", CHANNEL: "tapfk", TID: "489",FB_APP_ID:"1808809279347871"]
+//        }
+//        fk {
+//            manifestPlaceholders = [COUNTRY: "th", CHANNEL: "fk", TID: "488",FB_APP_ID:"1808809279347871"]
+//        }
+//        wifi {
+//            manifestPlaceholders = [COUNTRY: "th", CHANNEL: "wifi", TID: "490",FB_APP_ID:"1808809279347871"]
+//        }
     }
 }
 
